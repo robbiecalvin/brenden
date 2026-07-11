@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Identity Recovery</title>
+
+<link rel="stylesheet" href="../css/reset.css">
+<link rel="stylesheet" href="../css/layout.css">
+<link rel="stylesheet" href="../css/checklist.css">
+
+<link rel="stylesheet" href="../css/theme.css">
+
+</head>
+
+
+
+
+<body>
+
+
+<header class="page-header">
+<div>
+
+<h1>
+Identity Recovery
+</h1>
+
+<p>
+Replace documents needed for independence
+</p>
+
+</div>
+<img class="logo" src="/assets/images/brendenlogo.png">
+</header>
+
+
+
+<main id="identity-container">
+
+</main>
+
+<div id="addressChoiceModal" class="modal">
+  <div class="modal-content">
+    <button class="close-modal" id="exitAddressModal">×</button>
+
+    <h2>Address & Mailing Options</h2>
+
+    <p>
+      Brenden, you have options regarding the use of this address:
+    </p>
+
+    <div class="address-option">
+      <h3>🏠 Continue Residing at 2335 West 7th</h3>
+      <p>
+        If you wish to continue living at 2335 West 7th, you are welcome to
+        maintain this as your residential address.
+      </p>
+    </div>
+
+    <div class="address-option">
+      <h3>📬 Use 2335 West 7th as a Mailing Address Only</h3>
+      <p>
+        If you do not wish to reside here but need a reliable mailing address,
+        you may use 2335 West 7th for receiving important documents,
+        correspondence, and official notices.
+      </p>
+    </div>
+
+    <p class="note">
+      Maintaining a consistent mailing address helps with identification,
+      banking, healthcare, legal documents, and government services.
+    </p>
+
+    <button id="continueAddressModal">
+      Continue
+    </button>
+
+  </div>
+</div>
+
+
+
+
+
+<script type="module">
+
+import {
+loadIdentity
+}
+from "../js/identity.js";
+
+
+loadIdentity();
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const modal = document.getElementById("addressChoiceModal");
+  const continueButton = document.getElementById("continueAddressModal");
+  const exitButton = document.getElementById("exitAddressModal");
+
+
+  function closeAddressModal() {
+    modal.style.display = "none";
+  }
+
+
+  continueButton.addEventListener("click", function () {
+    closeAddressModal();
+  });
+
+
+  exitButton.addEventListener("click", function () {
+    closeAddressModal();
+  });
+
+
+  // Show popup after 5 second delay
+  setTimeout(function () {
+    modal.style.display = "flex";
+  }, 5000);
+
+
+});
+</script>
+
+
+<footer class="app-footer">
+
+    <p>
+        All information in this application was researched.
+    </p>
+    <p>
+        <a href="/sources.html">
+            Click here to view Sources
+        </a>
+    </p>
+
+    <p>
+        <button id="developerNoteButton">
+            A quick note from our Developer
+        </button>
+    </p>
+
+    <p>
+        Developed by Robbie Calvin
+    </p>
+
+</footer>
+
+
+<!-- Developer Popup -->
+<div id="developerNotePopup" class="developer-popup">
+
+    <div class="developer-popup-content">
+
+        <button id="closeDeveloperPopup" class="close-popup">
+            ×
+        </button>
+
+        <h2>A Quick Note From Our Developer</h2>
+
+        <p>
+            Brenden, love you
+        </p>
+
+    </div>
+
+</div>
+<script src="../js/footer.js"></script>
+</body>
+
+</html>

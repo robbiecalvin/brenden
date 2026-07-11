@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+<meta charset="UTF-8">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Document Vault</title>
+
+
+<link rel="stylesheet" href="../css/reset.css">
+
+<link rel="stylesheet" href="../css/layout.css">
+
+<link rel="stylesheet" href="../css/checklist.css">
+
+
+<link rel="stylesheet" href="../css/theme.css">
+
+</head>
+
+
+
+
+
+<body>
+
+
+
+<header class="page-header">
+<div>
+
+
+<h1>
+Document Vault
+</h1>
+
+
+<p>
+Important records and preparation checklists
+</p>
+
+
+</div>
+<img class="logo" src="/assets/images/brendenlogo.png">
+</header>
+
+
+
+
+<main id="documents-container">
+
+</main>
+
+
+
+
+<script type="module">
+
+import {
+loadDocuments
+}
+from "../js/documents.js";
+
+
+loadDocuments();
+
+
+</script>
+
+
+
+<footer class="app-footer">
+
+    <p>
+        All information in this application was researched.
+    </p>
+    <p>
+        <a href="/sources.html">
+            Click here to view Sources
+        </a>
+    </p>
+
+    <p>
+        <button id="developerNoteButton">
+            A quick note from our Developer
+        </button>
+    </p>
+
+    <p>
+        Developed by Robbie Calvin
+    </p>
+
+</footer>
+
+
+<!-- Developer Popup -->
+<div id="developerNotePopup" class="developer-popup">
+
+    <div class="developer-popup-content">
+
+        <button id="closeDeveloperPopup" class="close-popup">
+            ×
+        </button>
+
+        <h2>A Quick Note From Our Developer</h2>
+
+        <p>
+            Brenden, love you
+        </p>
+
+    </div>
+
+</div>
+<script src="../js/footer.js"></script>
+</body>
+
+</html>
