@@ -1,42 +1,77 @@
 {
-  "before_meeting": [
+  "title": "Trust Review Lawyer Appointment",
 
-    "Write a short summary of goals",
-
-    "Organize available documents",
-
-    "Create timeline of important events",
-
-    "Prepare questions",
-
-    "Confirm consultation details"
-
+  "appointment_checklist": [
+    {
+      "category": "Identity",
+      "items": [
+        "Government identification",
+        "Proof of address",
+        "Contact information"
+      ]
+    },
+    {
+      "category": "Trust Information",
+      "items": [
+        "Trust agreement",
+        "Any amendments",
+        "Trustee contact information",
+        "Payment history",
+        "Statements or records"
+      ]
+    },
+    {
+      "category": "Personal Timeline",
+      "items": [
+        "When trust began",
+        "When trustee was appointed",
+        "Important conversations",
+        "Changes in payments",
+        "Major concerns"
+      ]
+    }
   ],
 
-
-  "during_meeting": [
-
-    "Explain trust structure",
-
-    "Ask about available options",
-
-    "Ask about timelines",
-
-    "Ask about expected costs",
-
-    "Take notes"
-
+  "lawyer_questions": [
+    {
+      "category": "Trust Structure",
+      "items": [
+        "What type of trust arrangement exists?",
+        "What rights does the beneficiary have?",
+        "What documents should be reviewed?"
+      ]
+    },
+    {
+      "category": "Trustee Options",
+      "items": [
+        "What options exist regarding trustee changes?",
+        "Is court involvement required?",
+        "What information is needed?"
+      ]
+    },
+    {
+      "category": "Financial Management",
+      "items": [
+        "How should future payments be handled?",
+        "What records should be maintained?",
+        "What budgeting support is recommended?"
+      ]
+    }
   ],
 
+  "appointment_questions": [
+    "What options exist for changing trustees?",
+    "What records should be requested?",
+    "What rights does the beneficiary have?",
+    "What is the expected timeline?",
+    "What costs should be expected?"
+  ],
 
-  "after_meeting": [
-
-    "Save lawyer instructions",
-
-    "Store copies of documents",
-
-    "Record next steps"
-
+  "bring": [
+    "Government identification",
+    "Trust documents",
+    "Financial records",
+    "Communication records",
+    "Timeline of events"
   ]
-
 }

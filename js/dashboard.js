@@ -122,7 +122,7 @@ ${createCards([
 [
 "📚 Lawyer Meeting",
 "Prepare for legal consultation",
-"lawyer-appointment.html",
+"questions-for-lawyer.html",
 "step7.png"
 ],
 
