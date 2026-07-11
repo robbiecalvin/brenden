@@ -1,0 +1,234 @@
+{
+  "meta": {
+
+    "version": "1.0",
+
+    "purpose": "Trustee transition preparation checklist",
+
+    "warning": "Legal decisions should be reviewed with independent legal counsel."
+
+  },
+
+
+  "phases": [
+
+
+    {
+
+      "id": "before_completion",
+
+      "title": "Before Treatment Completion",
+
+      "description": "Preparation tasks that can be completed without changing trustee arrangements.",
+
+
+      "tasks": [
+
+        {
+
+          "id": "collect_identity",
+
+          "title": "Replace missing identity documents",
+
+          "status": "pending",
+
+          "notes": [
+
+            "Birth certificate",
+
+            "BC identification",
+
+            "Banking access preparation"
+
+          ]
+
+        },
+
+
+        {
+
+          "id": "confirm_benefits",
+
+          "title": "Confirm disability benefits status",
+
+          "status": "pending",
+
+          "notes": [
+
+            "Verify payments continue after discharge"
+
+          ]
+
+        },
+
+
+        {
+
+          "id": "create_private_records",
+
+          "title": "Create personal timeline",
+
+          "status": "pending",
+
+          "notes": [
+
+            "Important dates",
+
+            "Financial events",
+
+            "Documents received",
+
+            "Communication history"
+
+          ]
+
+        }
+
+      ]
+
+    },
+
+
+    {
+
+      "id": "after_completion",
+
+      "title": "After Treatment Completion",
+
+      "description": "Initial legal transition steps after program completion.",
+
+
+      "tasks": [
+
+        {
+
+          "id": "lawyer_consultation",
+
+          "title": "Meet independent trust lawyer",
+
+          "status": "locked",
+
+          "depends_on": [
+
+            "collect_identity"
+
+          ],
+
+          "notes": [
+
+            "Bring available trust documents",
+
+            "Explain desired trustee arrangement"
+
+          ]
+
+        },
+
+
+        {
+
+          "id": "trust_review",
+
+          "title": "Complete trust document review",
+
+          "status": "locked",
+
+          "depends_on": [
+
+            "lawyer_consultation"
+
+          ]
+
+        },
+
+
+        {
+
+          "id": "trustee_application",
+
+          "title": "Discuss trustee change options",
+
+          "status": "locked",
+
+          "depends_on": [
+
+            "trust_review"
+
+          ]
+
+        }
+
+      ]
+
+    },
+
+
+    {
+
+      "id": "financial_independence",
+
+      "title": "Financial Independence Planning",
+
+      "tasks": [
+
+        {
+
+          "id": "new_budget",
+
+          "title": "Create independent financial plan",
+
+          "status": "locked"
+
+        },
+
+
+        {
+
+          "id": "banking_setup",
+
+          "title": "Confirm personal banking access",
+
+          "status": "locked"
+
+        }
+
+      ]
+
+    }
+
+
+  ],
+
+
+  "lawyer_questions": [
+
+    "What options exist to change trustees?",
+
+    "What evidence is useful when reviewing trustee conduct?",
+
+    "What rights does the beneficiary have?",
+
+    "What information should be requested from the current trustee?",
+
+    "What is the expected timeline?"
+
+  ],
+
+
+  "document_checklist": [
+
+    "Trust agreement",
+
+    "Trust accounting records",
+
+    "Bank statements",
+
+    "Communication records",
+
+    "Identification documents",
+
+    "Court documents"
+
+  ]
+
+}

@@ -1,0 +1,52 @@
+{
+  "categories": [
+
+    {
+      "name": "Financial Records",
+
+      "examples": [
+
+        "Statements",
+
+        "Payment records",
+
+        "Receipts"
+
+      ]
+
+    },
+
+
+    {
+      "name": "Communication Records",
+
+      "examples": [
+
+        "Emails",
+
+        "Texts",
+
+        "Letters"
+
+      ]
+
+    },
+
+
+    {
+      "name": "Personal Notes",
+
+      "examples": [
+
+        "Dates",
+
+        "Events",
+
+        "Questions"
+
+      ]
+
+    }
+
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Brenden Recovery Roadmap",
+
+  "goal": "Financial Independence",
+
+  "phases": [
+    {
+      "id": "immediate_actions",
+      "title": "Immediate Actions",
+      "progress": 0,
+      "tasks": [
+        "birth_certificate",
+        "bc_identification",
+        "secure_documents"
+      ]
+    },
+
+    {
+      "id": "recovery",
+      "title": "Recovery Progress",
+      "progress": 0,
+      "tasks": []
+    },
+
+    {
+      "id": "legal_trustee",
+      "title": "Legal & Trustee Process",
+      "progress": 0,
+      "tasks": []
+    },
+
+    {
+      "id": "financial",
+      "title": "Financial Planning",
+      "progress": 0,
+      "tasks": [
+        "bank_account"
+      ]
+    },
+
+    {
+      "id": "relocation",
+      "title": "Relocation Planning",
+      "progress": 0,
+      "tasks": []
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "version": "1.0",
+    "last_updated": "2026-01-01",
+    "description": "Master recovery and transition timeline for Brenden"
+  },
+
+  "phases": [
+
+    {
+      "id": "phase_1_recovery",
+      "title": "Recovery Completion",
+      "status": "active",
+      "locked": false,
+      "description": "Focus on completing treatment and maintaining stability.",
+      "tasks": [
+
+        {
+          "id": "complete_treatment",
+          "title": "Complete Residential Treatment",
+          "status": "in_progress",
+          "required": true
+        },
+        {
+          "id": "obtain_completion_docs",
+          "title": "Obtain Completion Documentation",
+          "status": "locked",
+          "depends_on": ["complete_treatment"]
+        },
+        {
+          "id": "confirm_drug_court_completion",
+          "title": "Confirm Drug Court Completion",
+          "status": "locked",
+          "depends_on": ["obtain_completion_docs"]
+        },
+        {
+          "id": "confirm_benefits_status",
+          "title": "Confirm Disability Benefits Active",
+          "status": "pending"
+        }
+
+      ]
+    },
+
+    {
+      "id": "phase_2_identity",
+      "title": "Identity & Financial Setup",
+      "status": "pending",
+      "locked": false,
+      "description": "Rebuild legal identity and financial independence.",
+      "tasks": [
+
+        {
+          "id": "apply_birth_certificate",
+          "title": "Apply for Alberta Birth Certificate",
+          "status": "pending"
+        },
+        {
+          "id": "receive_birth_certificate",
+          "title": "Receive Birth Certificate",
+          "status": "locked",
+          "depends_on": ["apply_birth_certificate"]
+        },
+        {
+          "id": "apply_bcid",
+          "title": "Apply for BC Identification",
+          "status": "locked",
+          "depends_on": ["receive_birth_certificate"]
+        },
+        {
+          "id": "open_bank_account",
+          "title": "Open Personal Bank Account",
+          "status": "locked",
+          "depends_on": ["apply_bcid"]
+        },
+        {
+          "id": "setup_private_contact",
+          "title": "Create Private Email & Phone Access",
+          "status": "locked",
+          "depends_on": ["open_bank_account"]
+        }
+
+      ]
+    },
+
+    {
+      "id": "phase_3_stability",
+      "title": "Stability & Housing",
+      "status": "pending",
+      "locked": false,
+      "description": "Secure safe housing and support systems.",
+      "tasks": [
+
+        {
+          "id": "research_recovery_housing",
+          "title": "Research Recovery Housing Options",
+          "status": "pending"
+        },
+        {
+          "id": "identify_lgbt_safe_housing",
+          "title": "Identify LGBTQ+ Friendly Housing",
+          "status": "pending"
+        },
+        {
+          "id": "shortlist_housing",
+          "title": "Create Housing Shortlist",
+          "status": "locked",
+          "depends_on": [
+            "research_recovery_housing",
+            "identify_lgbt_safe_housing"
+          ]
+        },
+        {
+          "id": "confirm_post_treatment_housing",
+          "title": "Confirm Housing After Treatment",
+          "status": "locked",
+          "depends_on": ["shortlist_housing"]
+        }
+
+      ]
+    },
+
+    {
+      "id": "phase_4_legal_prep",
+      "title": "Financial Independence Preparation",
+      "status": "locked",
+      "locked_reason": "Requires completion of drug court program",
+      "unlock_conditions": [
+        "confirm_drug_court_completion",
+        "setup_private_contact"
+      ],
+      "description": "Prepare for trustee review and legal independence.",
+      "tasks": [
+
+        {
+          "id": "create_personal_timeline",
+          "title": "Document Personal Financial History",
+          "status": "pending"
+        },
+        {
+          "id": "record_trustee_info",
+          "title": "Record Trustee Details",
+          "status": "pending"
+        },
+        {
+          "id": "collect_evidence",
+          "title": "Preserve Messages and Financial Records",
+          "status": "pending"
+        },
+        {
+          "id": "identify_document_sources",
+          "title": "Identify Sources for Missing Documents",
+          "status": "pending"
+        },
+        {
+          "id": "prepare_lawyer_meeting",
+          "title": "Prepare for Lawyer Consultation",
+          "status": "locked",
+          "depends_on": [
+            "create_personal_timeline",
+            "record_trustee_info",
+            "collect_evidence"
+          ]
+        }
+
+      ]
+    },
+
+    {
+      "id": "phase_5_legal_action",
+      "title": "Legal & Trustee Resolution",
+      "status": "locked",
+      "locked_reason": "Requires legal consultation first",
+      "unlock_conditions": ["prepare_lawyer_meeting"],
+      "description": "Work with lawyer to review and potentially change trustee.",
+      "tasks": [
+
+        {
+          "id": "consult_lawyer",
+          "title": "Meet Independent Lawyer",
+          "status": "pending"
+        },
+        {
+          "id": "review_trust_documents",
+          "title": "Review Trust Structure",
+          "status": "locked",
+          "depends_on": ["consult_lawyer"]
+        },
+        {
+          "id": "request_accounting",
+          "title": "Request Trustee Accounting",
+          "status": "locked",
+          "depends_on": ["review_trust_documents"]
+        },
+        {
+          "id": "initiate_trustee_change",
+          "title": "Initiate Trustee Change Process",
+          "status": "locked",
+          "depends_on": ["request_accounting"]
+        },
+        {
+          "id": "complete_trustee_transition",
+          "title": "Complete Trustee Transition",
+          "status": "locked",
+          "depends_on": ["initiate_trustee_change"]
+        }
+
+      ]
+    },
+
+    {
+      "id": "phase_6_future_planning",
+      "title": "Future Planning & Relocation",
+      "status": "pending",
+      "locked": false,
+      "description": "Plan long-term living and financial future.",
+      "tasks": [
+
+        {
+          "id": "compare_cities",
+          "title": "Compare Vancouver vs Lloydminster",
+          "status": "pending"
+        },
+        {
+          "id": "build_budget_single",
+          "title": "Build Budget (Single Person)",
+          "status": "pending"
+        },
+        {
+          "id": "build_budget_shared",
+          "title": "Build Budget (Shared Living)",
+          "status": "pending"
+        },
+        {
+          "id": "plan_relocation",
+          "title": "Plan Move to Lloydminster",
+          "status": "locked",
+          "depends_on": [
+            "compare_cities",
+            "build_budget_single",
+            "build_budget_shared"
+          ]
+        }
+
+      ]
+    }
+
+  ]
+}

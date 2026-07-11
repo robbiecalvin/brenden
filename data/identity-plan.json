@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "version": "1.1",
+    "purpose": "Identity recovery checklist",
+    "last_updated": "2026-07"
+  },
+
+  "steps": [
+
+    {
+      "id": "alberta_birth_certificate",
+
+      "title": "Replace Alberta Birth Certificate",
+
+      "category": "identity",
+
+      "priority": "critical",
+
+      "status": "not_started",
+
+      "completed": false,
+
+      "description": "Obtain Alberta birth certificate as the foundation document for replacing other identification.",
+
+      "requirements": [
+        "Completed Alberta Birth Certificate application form",
+        "Statutory Declaration for Proof of Identity completed and signed in front of a Notary Public or Commissioner for Oaths",
+        "Designated agent with acceptable government-issued photo ID",
+        "Designated agent must have known the applicant for at least one year",
+        "Applicant must complete the application and consent sections personally",
+        "Designated agent must sign the statutory declaration section in front of a Notary Public or Commissioner for Oaths",
+        "Payment method for certificate replacement fee",
+        "Current mailing address",
+        "Original completed documents mailed to an approved Alberta registry service provider"
+      ],
+
+      "designated_agent_definition": {
+        "description": "A trusted person who applies on behalf of the applicant because the applicant does not have acceptable identification.",
+        "requirements": [
+          "Must know the applicant personally for at least one year",
+          "Must have their own acceptable government-issued photo ID",
+          "Must complete the required declaration sections",
+          "Must verify the applicant's identity through the statutory declaration process",
+          "Cannot simply be any witness or acquaintance"
+        ]
+      },
+
+      "outputs": [
+        "Official Alberta birth certificate"
+      ],
+
+      "blocks": [
+        "BC identification application",
+        "Bank account setup"
+      ],
+
+      "completion_button": {
+        "enabled": true,
+        "label": "Mark as Completed"
+      }
+    },
+
+
+    {
+      "id": "bc_identification",
+
+      "title": "Replace BC Identification",
+
+      "category": "identity",
+
+      "priority": "critical",
+
+      "status": "locked",
+
+      "completed": false,
+
+      "depends_on": [
+        "alberta_birth_certificate"
+      ],
+
+      "requirements": [
+        "Birth certificate or other acceptable primary identity document",
+        "Proof of BC residency",
+        "One additional piece of acceptable identity documentation",
+        "If only one identity document is available, request ICBC one-time exception review",
+        "Supporting documents showing legal name and date of birth if required",
+        "Complete BCID application at an ICBC driver licensing office",
+        "Payment method for BCID card fee",
+        "Consent to have photograph and signature captured"
+      ],
+
+      "outputs": [
+        "BC Services Card",
+        "BC Identification Card"
+      ],
+
+      "completion_button": {
+        "enabled": true,
+        "label": "Mark as Completed"
+      }
+    },
+
+
+    {
+      "id": "bank_account",
+
+      "title": "Open Personal Bank Accounts and Retirement Savings",
+
+      "category": "financial",
+
+      "priority": "critical",
+
+      "status": "locked",
+
+      "completed": false,
+
+      "depends_on": [
+        "bc_identification"
+      ],
+
+      "requirements": [
+        "Government-issued identification (BCID and/or BC Services Card)",
+        "Social Insurance Number (SIN)",
+        "Personal information including legal name and date of birth",
+        "Current residential address",
+        "Mailing address if different from residential address",
+        "Contact information",
+        "Initial deposit amount if required by financial institution"
+      ],
+
+      "accounts_to_open": [
+        {
+          "type": "Chequing Account",
+          "purpose": "Daily banking, income deposits, bill payments, and everyday expenses"
+        },
+        {
+          "type": "Savings Account",
+          "purpose": "Emergency savings, financial goals, and building money management habits"
+        },
+        {
+          "type": "RRSP",
+          "purpose": "Long-term retirement savings and future financial security",
+          "notes": [
+            "Review contribution limits before depositing",
+            "Consider professional financial advice before making large contributions"
+          ]
+        }
+      ],
+
+      "outputs": [
+        "Active personal chequing account",
+        "Active savings account",
+        "Registered Retirement Savings Plan (RRSP)",
+        "Online banking access",
+        "Debit card",
+        "Ability to receive deposits and manage finances independently"
+      ],
+
+      "completion_button": {
+        "enabled": true,
+        "label": "Mark as Completed"
+      }
+    },
+
+
+    {
+      "id": "secure_documents",
+
+      "title": "Create Secure Document Storage System",
+
+      "category": "organization",
+
+      "priority": "high",
+
+      "status": "not_started",
+
+      "completed": false,
+
+      "depends_on": [
+        "bc_identification",
+        "bank_account"
+      ],
+
+      "requirements": [
+        "Physical document storage folder or binder",
+        "Secure digital backup system",
+        "Password-protected digital storage",
+        "Email account with recovery options enabled",
+        "Document organization categories",
+        "List of important account numbers and contacts",
+        "Emergency contact information"
+      ],
+
+      "document_categories": [
+        {
+          "category": "Identity Documents",
+          "documents": [
+            "Birth certificate",
+            "BCID",
+            "BC Services Card",
+            "Social Insurance Number documentation"
+          ]
+        },
+        {
+          "category": "Financial Documents",
+          "documents": [
+            "Bank account information",
+            "RRSP information",
+            "Benefit payment records",
+            "Tax documents"
+          ]
+        },
+        {
+          "category": "Legal Documents",
+          "documents": [
+            "Legal correspondence",
+            "Court documents",
+            "Lawyer communications",
+            "Important agreements"
+          ]
+        },
+        {
+          "category": "Medical and Recovery Documents",
+          "documents": [
+            "Medical records",
+            "Treatment records",
+            "Medication information",
+            "Recovery program documentation"
+          ]
+        },
+        {
+          "category": "Housing and Services",
+          "documents": [
+            "Lease agreements",
+            "Housing applications",
+            "Income assistance paperwork",
+            "Service provider information"
+          ]
+        }
+      ],
+
+      "security_requirements": [
+        "Store original identity documents in a secure location",
+        "Keep encrypted digital copies of critical documents",
+        "Use unique passwords for accounts containing personal information",
+        "Enable two-factor authentication where available",
+        "Do not store original documents in unsecured locations"
+      ],
+
+      "outputs": [
+        "Organized physical document binder",
+        "Secure digital document archive",
+        "Easy access to required paperwork",
+        "Reduced risk of lost identity documents",
+        "Prepared documentation package for legal, financial, medical, and housing needs"
+      ],
+
+      "completion_button": {
+        "enabled": true,
+        "label": "Mark as Completed"
+      }
+    }
+
+  ]
+}

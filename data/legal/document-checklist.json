@@ -1,0 +1,48 @@
+{
+  "documents": [
+
+    {
+      "name": "Trust Agreement",
+
+      "status": "unknown",
+
+      "importance": "critical",
+
+      "notes":
+      "The lawyer will need to review the trust terms."
+    },
+
+
+    {
+      "name": "Trust Accounting Records",
+
+      "status": "unknown",
+
+      "importance": "critical",
+
+      "notes":
+      "Ask lawyer what records should be requested."
+    },
+
+
+    {
+      "name": "Banking Records",
+
+      "status": "unknown",
+
+      "importance": "high"
+
+    },
+
+
+    {
+      "name": "Communication Records",
+
+      "status": "unknown",
+
+      "importance": "high"
+
+    }
+
+  ]
+}

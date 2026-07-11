@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "version": "1.0",
+    "purpose": "Recovery housing directory for Brenden transition planning",
+    "last_updated": "2026-07",
+    "verification_note": "Programs should be contacted directly to confirm availability, fees, eligibility, and LGBTQ+ accommodations."
+  },
+
+
+  "filters": [
+    "location",
+    "gender",
+    "lgbtq_friendly",
+    "benefit_compatibility",
+    "post_treatment"
+  ],
+
+
+  "houses": [
+
+
+    {
+      "id": "rise_sober_living_bc",
+
+      "name": "Rise Sober Living",
+
+      "location": "British Columbia",
+
+      "city": "Multiple BC Locations",
+
+      "type": "Sober Living",
+
+      "gender": "Mixed",
+
+      "lgbtq_friendly": "Needs Confirmation",
+
+      "post_treatment": true,
+
+      "benefit_compatibility": "Needs Confirmation",
+
+      "cost": "Shared household expenses",
+
+      "notes": [
+        "Peer-run sober living model.",
+        "Requires commitment to sobriety."
+      ],
+
+      "source": "https://risesoberliving.ca/",
+
+      
+  "lgbtq_assessment": {
+
+    "verified": false,
+
+    "verification_level": "needs_confirmation",
+
+    "explicit_lgbtq_policy": false,
+
+    "staff_training_confirmed": false,
+
+    "resident_experience_confirmed": false,
+
+    "questions_to_ask": [
+
+      "Do you have LGBTQ+ residents currently living in the program?",
+
+      "How do you handle discrimination or harassment between residents?",
+
+      "Are LGBTQ+ residents protected under house rules?",
+
+      "Are staff trained on LGBTQ+ safety issues?",
+
+      "Would a resident feel comfortable being open about their identity?"
+    ]
+
+}
+
+    },
+
+
+    {
+      "id": "foundation_sober_living",
+
+      "name": "Foundation Sober Living",
+
+      "location": "British Columbia",
+
+      "city": "Multiple BC Locations",
+
+      "type": "Recovery Residence",
+
+      "gender": "Mixed",
+
+      "lgbtq_friendly": "Needs Confirmation",
+
+      "post_treatment": true,
+
+      "benefit_compatibility": "Needs Confirmation",
+
+      "cost": "Fee-based",
+
+      "notes": [
+        "Structured sober residences.",
+        "Live-in house managers.",
+        "Designed for transition after treatment."
+      ],
+
+      "source": "https://www.foundationsoberliving.ca/",
+
+      
+  "lgbtq_assessment": {
+
+    "verified": false,
+
+    "verification_level": "needs_confirmation",
+
+    "explicit_lgbtq_policy": false,
+
+    "staff_training_confirmed": false,
+
+    "resident_experience_confirmed": false,
+
+    "questions_to_ask": [
+
+      "Do you have LGBTQ+ residents currently living in the program?",
+
+      "How do you handle discrimination or harassment between residents?",
+
+      "Are LGBTQ+ residents protected under house rules?",
+
+      "Are staff trained on LGBTQ+ safety issues?",
+
+      "Would a resident feel comfortable being open about their identity?"
+    ]
+
+}
+
+    },
+
+
+    {
+      "id": "giving_back_vancouver",
+
+      "name": "Giving Back Society",
+
+      "location": "Vancouver BC",
+
+      "city": "Vancouver",
+
+      "type": "Recovery Housing",
+
+      "gender": "Men",
+
+      "lgbtq_friendly": "Needs Confirmation",
+
+      "post_treatment": true,
+
+      "benefit_compatibility": "Needs Confirmation",
+
+      "cost": "Contact organization",
+
+      "notes": [
+        "Structured recovery housing for men.",
+        "May be appropriate after treatment completion."
+      ],
+
+      "source": "https://www.giving-back.ca/",
+
+      
+  "lgbtq_assessment": {
+
+    "verified": false,
+
+    "verification_level": "needs_confirmation",
+
+    "explicit_lgbtq_policy": false,
+
+    "staff_training_confirmed": false,
+
+    "resident_experience_confirmed": false,
+
+    "questions_to_ask": [
+
+      "Do you have LGBTQ+ residents currently living in the program?",
+
+      "How do you handle discrimination or harassment between residents?",
+
+      "Are LGBTQ+ residents protected under house rules?",
+
+      "Are staff trained on LGBTQ+ safety issues?",
+
+      "Would a resident feel comfortable being open about their identity?"
+    ]
+
+}
+
+    },
+
+
+    {
+      "id": "residents_recovery_lloydminster",
+
+      "name": "Residents in Recovery Society",
+
+      "location": "Lloydminster AB",
+
+      "city": "Lloydminster",
+
+      "type": "Licensed Residential Addiction Service",
+
+      "gender": "Mixed Programs",
+
+      "lgbtq_friendly": "Needs Confirmation",
+
+      "post_treatment": true,
+
+      "benefit_compatibility": "Needs Confirmation",
+
+      "cost": "Contact organization",
+
+      "notes": [
+        "Provides sober living and residential recovery services.",
+        "Important Lloydminster-area option."
+      ],
+
+      "source": "https://www.residentsinrecovery.com/",
+
+      
+  "lgbtq_assessment": {
+
+    "verified": false,
+
+    "verification_level": "needs_confirmation",
+
+    "explicit_lgbtq_policy": false,
+
+    "staff_training_confirmed": false,
+
+    "resident_experience_confirmed": false,
+
+    "questions_to_ask": [
+
+      "Do you have LGBTQ+ residents currently living in the program?",
+
+      "How do you handle discrimination or harassment between residents?",
+
+      "Are LGBTQ+ residents protected under house rules?",
+
+      "Are staff trained on LGBTQ+ safety issues?",
+
+      "Would a resident feel comfortable being open about their identity?"
+    ]
+
+}
+
+    }
+
+
+  ]
+
+}

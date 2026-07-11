@@ -1,0 +1,40 @@
+:root {
+
+    --background: #ced8e5;
+
+    --surface: #96eab7;
+
+    --primary-blue: #5b8def;
+
+    --soft-blue: #e8f1ff;
+
+    --accent-teal: #72c7c5;
+
+    --text-dark: #243447;
+
+    --text-muted: #66788a;
+
+    --border: #dbe7f5;
+
+    --shadow:
+        0 8px 24px rgba(60,90,120,.08);
+
+}
+
+.card,
+.status-card,
+.dashboard-section,
+.legal-card {
+
+
+background:var(--surface);
+
+border:1px solid var(--border);
+
+border-radius:24px;
+
+padding:24px;
+
+box-shadow:var(--shadow);
+
+}

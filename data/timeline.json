@@ -1,0 +1,220 @@
+{
+  "meta": {
+
+    "version": "1.0",
+
+    "purpose": "Brenden transition timeline",
+
+    "last_updated": "2026-07"
+
+  },
+
+
+  "phases": [
+
+
+    {
+
+      "id": "treatment_phase",
+
+      "title": "Treatment Completion Phase",
+
+      "timeframe": "Current - October 2026",
+
+      "status": "active",
+
+
+      "tasks": [
+
+        {
+
+          "title":
+          "Complete treatment program",
+
+          "priority":
+          "critical"
+
+        },
+
+
+        {
+
+          "title":
+          "Obtain completion documentation",
+
+          "priority":
+          "critical"
+
+        },
+
+
+        {
+
+          "title":
+          "Confirm next appointment schedule",
+
+          "priority":
+          "high"
+
+        }
+
+      ]
+
+    },
+
+
+    {
+
+      "id": "first_week_after_completion",
+
+      "title": "First Week After Completion",
+
+      "timeframe":
+      "Days 1-7",
+
+      "status":
+      "future",
+
+
+      "tasks": [
+
+        {
+
+          "title":
+          "Complete lawyer consultation",
+
+          "priority":
+          "high"
+
+        },
+
+
+        {
+
+          "title":
+          "Begin trustee review process",
+
+          "priority":
+          "high"
+
+        },
+
+
+        {
+
+          "title":
+          "Secure housing plan",
+
+          "priority":
+          "critical"
+
+        }
+
+      ]
+
+    },
+
+
+    {
+
+      "id": "first_month",
+
+      "title":
+      "First Month Stability",
+
+      "timeframe":
+      "October-November 2026",
+
+
+      "tasks": [
+
+        {
+
+          "title":
+          "Establish banking",
+
+          "priority":
+          "critical"
+
+        },
+
+
+        {
+
+          "title":
+          "Maintain benefits",
+
+          "priority":
+          "critical"
+
+        },
+
+
+        {
+
+          "title":
+          "Review financial options",
+
+          "priority":
+          "high"
+
+        }
+
+      ]
+
+    },
+
+
+    {
+
+      "id": "long_term",
+
+      "title":
+      "Long-Term Independence",
+
+      "timeframe":
+      "2027+",
+
+
+      "tasks": [
+
+        {
+
+          "title":
+          "Resolve trustee situation",
+
+          "priority":
+          "critical"
+
+        },
+
+
+        {
+
+          "title":
+          "Evaluate relocation",
+
+          "priority":
+          "medium"
+
+        },
+
+
+        {
+
+          "title":
+          "Build sustainable budget",
+
+          "priority":
+          "high"
+
+        }
+
+      ]
+
+    }
+
+
+  ]
+
+}

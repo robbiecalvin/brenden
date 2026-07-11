@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "version": "1.0",
+    "currency": "CAD",
+    "purpose": "Planning estimates for Brenden transition budgeting",
+    "last_updated": "2026-07"
+  },
+
+  "locations": [
+
+    {
+      "id": "vancouver_bc",
+      "name": "Vancouver, BC",
+
+      "notes": [
+        "Housing is the largest cost factor.",
+        "Shared housing or recovery housing can significantly reduce expenses."
+      ],
+
+      "single_person": {
+
+        "monthly_income_target": 0,
+
+        "expenses": {
+
+          "housing": {
+            "rent_shared": 900,
+            "rent_room": 1200,
+            "rent_private_1bed": 2200
+          },
+
+          "utilities": {
+            "electricity": 50,
+            "internet": 80,
+            "phone": 80
+          },
+
+          "food": {
+            "groceries_low": 350,
+            "groceries_average": 500
+          },
+
+          "transportation": {
+            "transit_pass": 115,
+            "misc_transport": 50
+          },
+
+          "health_personal": {
+            "medication": 50,
+            "personal_items": 100
+          },
+
+          "miscellaneous": {
+            "clothing": 75,
+            "entertainment": 100,
+            "emergency_savings": 100
+          }
+
+        },
+
+        "estimated_monthly_total": {
+
+          "shared_housing": 1950,
+          "private_room": 2250,
+          "private_apartment": 3350
+        }
+
+      },
+
+
+      "two_person_household": {
+
+        "expenses": {
+
+          "housing": 2500,
+
+          "utilities": 220,
+
+          "food": 850,
+
+          "transportation": 200,
+
+          "phones": 160,
+
+          "personal": 250,
+
+          "miscellaneous": 200
+
+        },
+
+        "estimated_monthly_total": 4380
+
+      }
+
+    },
+
+
+    {
+      "id": "lloydminster_ab_sk",
+      "name": "Lloydminster, Alberta/Saskatchewan",
+
+      "notes": [
+        "Lower housing costs compared with Vancouver.",
+        "Transportation planning is more important because distances are greater."
+      ],
+
+
+      "single_person": {
+
+        "expenses": {
+
+          "housing": {
+            "rent_average": 1200,
+            "rent_lower_range": 1000
+          },
+
+          "utilities": {
+            "electricity": 100,
+            "internet": 80,
+            "phone": 80
+          },
+
+          "food": {
+            "groceries_low": 350,
+            "groceries_average": 500
+          },
+
+          "transportation": {
+            "vehicle_estimate": 400,
+            "no_vehicle_estimate": 100
+          },
+
+          "health_personal": {
+            "medication": 50,
+            "personal_items": 100
+          },
+
+          "miscellaneous": {
+            "clothing": 75,
+            "entertainment": 100,
+            "emergency_savings": 200
+          }
+
+        },
+
+        "estimated_monthly_total": {
+
+          "without_vehicle": 2465,
+          "with_vehicle": 2765
+        }
+
+      },
+
+
+      "two_person_household": {
+
+        "expenses": {
+
+          "housing": 1400,
+
+          "utilities": 250,
+
+          "food": 900,
+
+          "transportation": 500,
+
+          "phones": 160,
+
+          "personal": 250,
+
+          "miscellaneous": 250
+
+        },
+
+        "estimated_monthly_total": 3710
+
+      }
+
+    }
+
+  ],
+
+
+  "future_income_scenarios": [
+
+    {
+      "id": "trust_allowance_single",
+      "name": "Trust Allowance Scenario",
+
+      "income": {
+        "monthly": 5000
+      },
+
+      "example_locations": [
+        "Vancouver",
+        "Lloydminster"
+      ]
+    },
+
+
+    {
+      "id": "trust_plus_partner_income",
+      "name": "Two Person Household Future Scenario",
+
+      "income": {
+
+        "trust_allowance": 5000,
+
+        "employment_or_benefits": 0
+
+      }
+    }
+
+  ]
+
+}

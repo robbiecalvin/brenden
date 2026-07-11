@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "version": "1.1",
+    "purpose": "Benefits continuity planning",
+    "last_updated": "2026-07"
+  },
+
+  "benefits": [
+
+    {
+      "id": "bc_disability",
+
+      "name": "BC Disability Assistance",
+
+      "region": "British Columbia",
+
+      "status": "verify",
+
+      "completed": false,
+
+      "priority": "critical",
+
+      "tasks": [
+
+        {
+          "id": "confirm_disability_file",
+
+          "title": "Confirm active disability file",
+
+          "complete": false
+        },
+
+        {
+          "id": "confirm_payment_schedule",
+
+          "title": "Confirm payment schedule",
+
+          "complete": false
+        },
+
+        {
+          "id": "confirm_mailing_address",
+
+          "title": "Confirm mailing address",
+
+          "complete": false
+        },
+
+        {
+          "id": "confirm_banking_information",
+
+          "title": "Confirm banking information",
+
+          "complete": false
+        }
+
+      ],
+
+      "completion_button": {
+
+        "enabled": true,
+
+        "label": "Mark as Completed"
+
+      }
+
+    }
+
+  ],
+
+
+  "emergency_plan": {
+
+    "purpose": "Prevent interruption of income after discharge",
+
+    "steps": [
+
+      {
+        "id": "keep_benefit_contacts",
+
+        "title": "Keep benefit contact information available",
+
+        "completed": false
+      },
+
+      {
+        "id": "maintain_government_access",
+
+        "title": "Maintain access to government accounts",
+
+        "completed": false
+      },
+
+      {
+        "id": "store_letters",
+
+        "title": "Store copies of important letters",
+
+        "completed": false
+      },
+
+      {
+        "id": "track_payment_dates",
+
+        "title": "Track payment dates",
+
+        "completed": false
+      }
+
+    ],
+
+    "completion_button": {
+
+      "enabled": true,
+
+      "label": "Mark as Completed"
+
+    }
+
+  },
+
+
+  "transition_checklist": [
+
+    {
+
+      "id": "confirm_benefits_before_discharge",
+
+      "task": "Confirm benefits before leaving treatment",
+
+      "priority": "high",
+
+      "completed": false,
+
+      "completion_button": {
+
+        "enabled": true,
+
+        "label": "Mark as Completed"
+
+      }
+
+    },
+
+
+    {
+
+      "id": "confirm_first_payment",
+
+      "task": "Confirm first payment after discharge",
+
+      "priority": "high",
+
+      "completed": false,
+
+      "completion_button": {
+
+        "enabled": true,
+
+        "label": "Mark as Completed"
+
+      }
+
+    }
+
+  ]
+
+}

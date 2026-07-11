@@ -1,0 +1,120 @@
+{
+  "categories": [
+
+    {
+      "id": "identity",
+      "title": "Identity Documents",
+
+      "documents": [
+
+        {
+          "id": "alberta_birth_certificate",
+          "title": "Alberta Birth Certificate",
+          "purpose": "Required to establish government identity.",
+          "status": "pending",
+          "category": "Identity",
+          "files": [],
+          "notes": [
+            "Complete before applying for BC identification."
+          ]
+        },
+
+
+        {
+          "id": "bcid",
+          "title": "BC Identification",
+          "purpose": "Primary government photo identification.",
+          "status": "locked",
+          "depends_on": [
+            "alberta_birth_certificate"
+          ],
+          "files": []
+        }
+
+
+      ]
+    },
+
+
+    {
+      "id": "benefits",
+      "title": "Benefits Documents",
+
+      "documents": [
+
+        {
+          "id": "disability_confirmation",
+          "title": "Disability Benefits Confirmation",
+          "purpose": "Verify benefits remain active.",
+          "status": "pending",
+          "files": []
+        }
+
+      ]
+    },
+
+
+    {
+      "id": "banking",
+      "title": "Banking Documents",
+
+      "documents": [
+
+        {
+          "id": "bank_account_setup",
+          "title": "Personal Bank Account Setup",
+          "purpose": "Create independent access to finances.",
+          "status": "locked",
+          "files": []
+        }
+
+      ]
+    },
+
+
+    {
+      "id": "trustee",
+      "title": "Trust & Legal Preparation",
+
+      "documents": [
+
+        {
+          "id": "trust_documents",
+          "title": "Trust Documents",
+          "purpose": "Documents for independent legal review.",
+          "status": "locked",
+          "notes": [
+            "Review with lawyer after treatment completion."
+          ]
+        },
+
+
+        {
+          "id": "financial_timeline",
+          "title": "Financial History Timeline",
+          "purpose": "Record important financial events.",
+          "status": "pending"
+        }
+
+      ]
+    },
+
+
+    {
+      "id": "housing",
+      "title": "Housing Documents",
+
+      "documents": [
+
+        {
+          "id": "housing_applications",
+          "title": "Housing Applications",
+          "purpose": "Applications for recovery or independent housing.",
+          "status": "pending"
+        }
+
+      ]
+    }
+
+  ]
+}

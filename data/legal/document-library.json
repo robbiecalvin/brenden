@@ -1,0 +1,58 @@
+{
+  "categories": [
+
+    {
+      "name": "Trust Documents",
+
+      "documents": [
+
+        "Trust agreement",
+
+        "Trust amendments",
+
+        "Trustee appointment documents",
+
+        "Statements or accounting records"
+
+      ]
+
+    },
+
+
+    {
+      "name": "Financial Records",
+
+      "documents": [
+
+        "Payment records",
+
+        "Bank statements",
+
+        "Receipts",
+
+        "Investment information"
+
+      ]
+
+    },
+
+
+    {
+      "name": "Personal Records",
+
+      "documents": [
+
+        "Identification documents",
+
+        "Court documents",
+
+        "Treatment completion records",
+
+        "Important correspondence"
+
+      ]
+
+    }
+
+  ]
+}

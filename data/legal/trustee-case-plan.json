@@ -1,0 +1,74 @@
+{
+  "title": "Trustee Transition Preparation",
+
+  "warning": "This tool organizes information for legal review. It does not determine legal outcomes.",
+
+
+  "phases": [
+
+    {
+      "id": "prepare",
+
+      "title": "Phase 1: Private Preparation",
+
+      "tasks": [
+
+        "Secure personal identification",
+
+        "Create private document storage",
+
+        "Write accurate timeline of events",
+
+        "Collect available trust documents",
+
+        "Record unanswered questions"
+
+      ]
+
+    },
+
+
+    {
+      "id": "lawyer",
+
+      "title": "Phase 2: Independent Legal Consultation",
+
+      "tasks": [
+
+        "Explain trust structure",
+
+        "Provide timeline",
+
+        "Review available documents",
+
+        "Discuss trustee options",
+
+        "Understand possible costs and timelines"
+
+      ]
+
+    },
+
+
+    {
+      "id": "transition",
+
+      "title": "Phase 3: Trustee Transition Process",
+
+      "tasks": [
+
+        "Follow lawyer instructions",
+
+        "Request required records",
+
+        "Complete required applications if advised",
+
+        "Maintain copies of all communications"
+
+      ]
+
+    }
+
+  ]
+
+}

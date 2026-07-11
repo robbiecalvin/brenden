@@ -1,0 +1,237 @@
+{
+  "meta": {
+    "version": "2.0",
+    "purpose": "Verified research sources supporting Brenden transition planning app",
+    "last_updated": "2026-07",
+    "review_cycle": "Review every 6 months"
+  },
+
+  "sources": [
+
+    {
+      "id": "bc_disability_rate_table",
+
+      "title": "Disability Assistance Rate Table",
+
+      "organization": "Government of British Columbia",
+
+      "category": [
+        "benefits",
+        "income"
+      ],
+
+      "region": "British Columbia",
+
+      "url": "https://www2.gov.bc.ca/gov/content/governments/policies-for-government/bcea-policy-and-procedure-manual/bc-employment-and-assistance-rate-tables/disability-assistance-rate-table",
+
+      "used_for": [
+        "BC disability income calculations",
+        "Monthly benefit assumptions"
+      ],
+
+      "confidence": "high",
+
+      "notes": [
+        "Official provincial benefit rate table."
+      ]
+    },
+
+
+    {
+      "id": "alberta_adap_information",
+
+      "title": "Alberta Disability Assistance Program",
+
+      "organization": "Government of Alberta",
+
+      "category": [
+        "benefits",
+        "income"
+      ],
+
+      "region": "Alberta",
+
+      "url": "https://www.alberta.ca/alberta-disability-assistance-program",
+
+      "used_for": [
+        "Lloydminster Alberta disability planning",
+        "Future benefit scenarios"
+      ],
+
+      "confidence": "high",
+
+      "notes": [
+        "ADAP launches July 2026.",
+        "Core benefit listed as up to $1,740/month."
+      ]
+    },
+
+
+    {
+      "id": "thorpe_recovery_centre",
+
+      "title": "Thorpe Recovery Centre",
+
+      "organization": "Alberta Health Services",
+
+      "category": [
+        "recovery",
+        "housing",
+        "treatment"
+      ],
+
+      "region": "Lloydminster Area",
+
+      "url": "https://www.albertahealthservices.ca/findhealth/Service.aspx?serviceAtFacilityID=1093946",
+
+      "used_for": [
+        "LGBTQ+ friendly recovery options",
+        "Lloydminster-area treatment resources"
+      ],
+
+      "confidence": "high",
+
+      "notes": [
+        "AHS lists service as adults 18+, all genders, LGBTQ+ friendly."
+      ]
+    },
+
+
+    {
+      "id": "rise_sober_living",
+
+      "title": "Rise Sober Living",
+
+      "organization": "Rise Sober Living",
+
+      "category": [
+        "recovery housing"
+      ],
+
+      "region": "British Columbia",
+
+      "used_for": [
+        "BC sober living options"
+      ],
+
+      "confidence": "medium",
+
+      "verification_required": [
+        "LGBTQ+ policies",
+        "Benefit acceptance",
+        "Current availability",
+        "Monthly cost"
+      ]
+    },
+
+
+    {
+      "id": "foundation_sober_living",
+
+      "title": "Foundation Sober Living",
+
+      "organization": "Foundation Sober Living",
+
+      "category": [
+        "recovery housing"
+      ],
+
+      "region": "British Columbia",
+
+      "used_for": [
+        "Post-treatment housing options"
+      ],
+
+      "confidence": "medium",
+
+      "verification_required": [
+        "LGBTQ+ policies",
+        "Disability income compatibility",
+        "Current openings"
+      ]
+    },
+
+
+    {
+      "id": "giving_back_society",
+
+      "title": "Giving Back Society",
+
+      "organization": "Giving Back Society",
+
+      "category": [
+        "recovery housing"
+      ],
+
+      "region": "Vancouver BC",
+
+      "used_for": [
+        "Men's recovery housing"
+      ],
+
+      "confidence": "medium",
+
+      "verification_required": [
+        "LGBTQ+ resident experience",
+        "Benefit acceptance",
+        "Cost"
+      ]
+    },
+
+
+    {
+      "id": "lloydminster_cost_research",
+
+      "title": "Lloydminster Cost of Living Research",
+
+      "organization": "Multiple market sources",
+
+      "category": [
+        "cost of living",
+        "housing"
+      ],
+
+      "region": "Lloydminster",
+
+      "used_for": [
+        "Rent estimates",
+        "Food estimates",
+        "Transportation estimates"
+      ],
+
+      "confidence": "medium",
+
+      "notes": [
+        "Market estimates require periodic review."
+      ]
+    },
+
+
+    {
+      "id": "vancouver_cost_research",
+
+      "title": "Vancouver Cost of Living Research",
+
+      "organization": "Multiple market sources",
+
+      "category": [
+        "cost of living",
+        "housing"
+      ],
+
+      "region": "Vancouver",
+
+      "used_for": [
+        "Housing scenarios",
+        "Monthly expense estimates"
+      ],
+
+      "confidence": "medium",
+
+      "notes": [
+        "Housing costs fluctuate significantly."
+      ]
+    }
+
+  ]
+}

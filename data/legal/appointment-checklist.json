@@ -1,0 +1,42 @@
+{
+  "before_meeting": [
+
+    "Write a short summary of goals",
+
+    "Organize available documents",
+
+    "Create timeline of important events",
+
+    "Prepare questions",
+
+    "Confirm consultation details"
+
+  ],
+
+
+  "during_meeting": [
+
+    "Explain trust structure",
+
+    "Ask about available options",
+
+    "Ask about timelines",
+
+    "Ask about expected costs",
+
+    "Take notes"
+
+  ],
+
+
+  "after_meeting": [
+
+    "Save lawyer instructions",
+
+    "Store copies of documents",
+
+    "Record next steps"
+
+  ]
+
+}

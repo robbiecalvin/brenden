@@ -1,0 +1,60 @@
+{
+  "appointment_checklist": [
+
+    {
+      "category": "Identity",
+
+      "items": [
+
+        "Government identification",
+
+        "Proof of address",
+
+        "Contact information"
+
+      ]
+
+    },
+
+
+    {
+      "category": "Trust Information",
+
+      "items": [
+
+        "Trust agreement",
+
+        "Any amendments",
+
+        "Trustee contact information",
+
+        "Payment history",
+
+        "Statements or records"
+
+      ]
+
+    },
+
+
+    {
+      "category": "Personal Timeline",
+
+      "items": [
+
+        "When trust began",
+
+        "When trustee was appointed",
+
+        "Important conversations",
+
+        "Changes in payments",
+
+        "Major concerns"
+
+      ]
+
+    }
+
+  ]
+}

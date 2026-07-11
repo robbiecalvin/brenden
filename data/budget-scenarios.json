@@ -1,0 +1,397 @@
+{
+  "meta": {
+    "version": "1.0",
+    "currency": "CAD",
+    "purpose": "Monthly transition budget scenarios",
+    "last_updated": "2026-07",
+    "note": "Figures are planning estimates and should be updated with confirmed benefit amounts and actual expenses."
+  },
+
+
+  "scenarios": [
+
+
+    {
+      "id": "october_2026_brenden_alone_bc",
+
+      "title": "October 2026 - Brenden Alone in BC",
+
+      "description": "Initial transition month after treatment completion.",
+
+      "location": "Vancouver BC",
+
+      "people": 1,
+
+
+      "income": [
+
+        {
+          "name": "BC Disability Assistance",
+          "amount": 983.50,
+          "source": "bc_disability_rates"
+        }
+
+      ],
+
+
+      "expenses": [
+
+        {
+          "category": "Housing",
+          "name": "Shared or Recovery Housing",
+          "amount": 900
+        },
+
+        {
+          "category": "Food",
+          "name": "Groceries",
+          "amount": 500
+        },
+
+        {
+          "category": "Phone",
+          "name": "Mobile Phone",
+          "amount": 80
+        },
+
+        {
+          "category": "Internet",
+          "name": "Internet",
+          "amount": 80
+        },
+
+        {
+          "category": "Transportation",
+          "name": "Transit",
+          "amount": 115
+        },
+
+        {
+          "category": "Personal",
+          "name": "Personal Needs",
+          "amount": 150
+        }
+
+      ],
+
+
+      "estimated_balance": -841.50
+
+    },
+
+
+
+    {
+      "id": "november_2026_brenden_alone_bc",
+
+      "title": "November 2026 - Stabilization Budget",
+
+      "location": "Vancouver BC",
+
+      "people": 1,
+
+
+      "income": [
+
+        {
+          "name": "BC Disability Assistance",
+          "amount": 983.50
+        }
+
+      ],
+
+
+      "expenses": [
+
+        {
+          "name": "Recovery Housing",
+          "amount": 800
+        },
+
+        {
+          "name": "Food",
+          "amount": 500
+        },
+
+        {
+          "name": "Phone",
+          "amount": 80
+        },
+
+        {
+          "name": "Transportation",
+          "amount": 115
+        },
+
+        {
+          "name": "Personal Expenses",
+          "amount": 150
+        }
+
+      ],
+
+
+      "estimated_balance": -661.50
+
+    },
+
+
+
+    {
+      "id": "december_2026_brenden_alone_bc",
+
+      "title": "December 2026 - Independent Planning",
+
+      "location": "Vancouver BC",
+
+      "people": 1,
+
+
+      "income": [
+
+        {
+          "name": "BC Disability Assistance",
+          "amount": 983.50
+        }
+
+      ],
+
+
+      "expenses": [
+
+        {
+          "name": "Housing",
+          "amount": 900
+        },
+
+        {
+          "name": "Food",
+          "amount": 500
+        },
+
+        {
+          "name": "Phone",
+          "amount": 80
+        },
+
+        {
+          "name": "Transportation",
+          "amount": 115
+        },
+
+        {
+          "name": "Personal",
+          "amount": 150
+        }
+
+      ],
+
+
+      "estimated_balance": -761.50
+
+    },
+
+
+
+    {
+      "id": "two_person_bc_household",
+
+      "title": "Two People Living Together in BC",
+
+      "description": "One person on disability, one person receiving income or employment income.",
+
+      "location": "Vancouver BC",
+
+      "people": 2,
+
+
+      "income": [
+
+        {
+          "name": "Brenden Disability Benefits",
+          "amount": 983.50
+        },
+
+        {
+          "name": "Second Person Income",
+          "amount": 1000,
+          "adjustable": true
+        }
+
+      ],
+
+
+      "expenses": [
+
+        {
+          "name": "Rent",
+          "amount": 1500
+        },
+
+        {
+          "name": "Food",
+          "amount": 850
+        },
+
+        {
+          "name": "Utilities",
+          "amount": 220
+        },
+
+        {
+          "name": "Phones",
+          "amount": 160
+        },
+
+        {
+          "name": "Transportation",
+          "amount": 200
+        },
+
+        {
+          "name": "Personal Expenses",
+          "amount": 250
+        }
+
+      ],
+
+
+      "estimated_balance": -1196.50
+
+    },
+
+
+
+    {
+      "id": "lloydminster_transition",
+
+      "title": "Lloydminster Relocation Plan",
+
+      "description": "Lower-cost location scenario.",
+
+      "location": "Lloydminster AB/SK",
+
+      "people": 1,
+
+
+      "income": [
+
+        {
+          "name": "Disability Income",
+          "amount": 1740
+        }
+
+      ],
+
+
+      "expenses": [
+
+        {
+          "name": "Rent",
+          "amount": 1200
+        },
+
+        {
+          "name": "Food",
+          "amount": 500
+        },
+
+        {
+          "name": "Utilities",
+          "amount": 200
+        },
+
+        {
+          "name": "Phone",
+          "amount": 80
+        },
+
+        {
+          "name": "Transportation",
+          "amount": 100
+        },
+
+        {
+          "name": "Personal",
+          "amount": 150
+        }
+
+      ],
+
+
+      "estimated_balance": -490
+
+    },
+
+
+
+    {
+      "id": "trust_future_plan",
+
+      "title": "Future Trust Allowance Scenario",
+
+      "description": "Potential future financial independence scenario after legal review.",
+
+      "location": "Lloydminster",
+
+      "people": 1,
+
+
+      "income": [
+
+        {
+          "name": "Trust Allowance",
+          "amount": 5000
+        }
+
+      ],
+
+
+      "expenses": [
+
+        {
+          "name": "Housing",
+          "amount": 1200
+        },
+
+        {
+          "name": "Food",
+          "amount": 600
+        },
+
+        {
+          "name": "Utilities",
+          "amount": 250
+        },
+
+        {
+          "name": "Transportation",
+          "amount": 450
+        },
+
+        {
+          "name": "Healthcare",
+          "amount": 100
+        },
+
+        {
+          "name": "Personal Spending",
+          "amount": 300
+        },
+
+        {
+          "name": "Savings",
+          "amount": 1000
+        }
+
+      ],
+
+
+      "estimated_balance": 1100
+
+    }
+
+
+  ]
+
+}
