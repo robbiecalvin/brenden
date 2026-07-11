@@ -121,13 +121,13 @@
     {
 
 
-      "id": "scenario_two_brenden_robbie_bc",
+      "id": "scenario_two_brenden_Partner_bc",
 
 
-      "title": "Scenario 2 - Brenden and Robbie Rebuild Together",
+      "title": "Scenario 2 - Brenden and Partner Rebuild Together",
 
 
-      "description": "Brenden moves into Robbie's existing accommodation at 2335 West 7th while both rebuild stability before relocation.",
+      "description": "Brenden moves into Partner's existing accommodation at 2335 West 7th while both rebuild stability before relocation.",
 
 
       "location": "Vancouver BC",
@@ -163,7 +163,7 @@
 
         {
 
-          "name": "Robbie Income",
+          "name": "Partner Income",
 
           "amount": 1040
 

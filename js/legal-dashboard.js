@@ -31,18 +31,16 @@ ${data.title}
 
 
 <p class="warning">
-
-${data.warning}
-
+${data.warning || ""}
 </p>
 
 
 
 ${
 
-data.phases.map(phase=>`
+data.phases.map((phase, phaseIndex)=>`
 
-<section>
+<section class="legal-phase">
 
 
 <h3>
@@ -50,18 +48,42 @@ ${phase.title}
 </h3>
 
 
-<ul>
+
+<ul class="checklist">
 
 
 ${
 
-phase.tasks.map(task=>`
+phase.tasks.map((task, taskIndex)=>{
 
-<li class="task-checkbox">
-☐ ${task}
+
+const id =
+`legal-${phaseIndex}-${taskIndex}`;
+
+
+return `
+
+<li class="checklist-item">
+
+
+<input 
+type="checkbox"
+id="${id}"
+class="legal-checkbox"
+>
+
+
+<label for="${id}">
+${task}
+</label>
+
+
 </li>
 
-`).join("")
+
+`;
+
+}).join("")
 
 }
 
@@ -82,6 +104,53 @@ phase.tasks.map(task=>`
 
 `;
 
+
+
+const checkboxes =
+document.querySelectorAll(
+".legal-checkbox"
+);
+
+
+
+checkboxes.forEach(box=>{
+
+
+const saved =
+localStorage.getItem(
+box.id
+);
+
+
+
+if(saved === "checked"){
+
+box.checked = true;
+
+}
+
+
+
+box.addEventListener(
+"change",
+()=>{
+
+
+localStorage.setItem(
+
+box.id,
+
+box.checked 
+? "checked"
+: ""
+
+);
+
+
+});
+
+
+});
 
 
 }

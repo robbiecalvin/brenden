@@ -1,42 +1,53 @@
 {
   "meta": {
     "title": "Research Foundation & Source Library",
-    "version": "1.0",
-    "purpose": "Documented research sources supporting identity recovery, legal planning, recovery, financial independence, and relocation planning",
-    "last_updated": "2026-07"
+    "version": "2.0",
+    "purpose": "Documented research sources supporting identity recovery, legal preparation, trustee review, recovery housing, financial independence, health planning, and relocation transition.",
+    "last_updated": "2026-07",
+    "organization": "Brenden Transition Planning"
   },
 
   "categories": [
 
     {
       "id": "identity_documents",
-
       "title": "Identity Recovery & Government Documentation",
-
       "description": "Research supporting replacement of missing identity documents and restoration of government identification.",
 
       "sources": [
 
         {
           "id": "alberta_birth_certificate",
-
           "organization": "Government of Alberta",
-
           "type": "government",
-
           "importance": "critical",
 
           "topics": [
             "Birth certificate replacement",
-            "Identity verification requirements",
+            "Identity verification",
             "Statutory declarations",
             "Authorized representatives",
-            "Registry agent procedures"
+            "Registry procedures"
           ],
 
           "supports": [
-            "Alberta birth certificate recovery process",
-            "Planning replacement identification"
+            "Alberta birth certificate recovery",
+            "Identity restoration planning"
+          ],
+
+          "related_documents": [
+            "AlbertaBirthCertificateApplication.pdf",
+            "StatutoryDeclarationforProofofIdentity.pdf"
+          ],
+
+          "related_pages": [
+            "identity.html"
+          ],
+
+          "action_items": [
+            "Complete birth certificate application",
+            "Arrange guarantor if required",
+            "Prepare supporting identity documents"
           ],
 
           "url": ""
@@ -45,47 +56,33 @@
 
         {
           "id": "bc_identification",
-
           "organization": "Government of British Columbia",
-
           "type": "government",
-
           "importance": "critical",
 
           "topics": [
             "BC Identification Card",
             "BC Services Card",
-            "Identity requirements",
             "Residency requirements",
             "Supporting documentation"
           ],
 
           "supports": [
-            "Obtaining government identification",
-            "Accessing provincial services"
+            "Obtaining provincial identification",
+            "Accessing government services"
           ],
 
-          "url": ""
-        },
-
-
-        {
-          "id": "icbc_identity",
-
-          "organization": "ICBC",
-
-          "type": "government_service",
-
-          "importance": "critical",
-
-          "topics": [
-            "BCID applications",
-            "Identity exceptions",
-            "Photo identification requirements"
+          "related_documents": [
+            "StatutoryDeclarationforProofofIdentity.pdf"
           ],
 
-          "supports": [
-            "BC identification recovery planning"
+          "related_pages": [
+            "identity.html"
+          ],
+
+          "action_items": [
+            "Confirm acceptable documents",
+            "Apply for BC identification"
           ],
 
           "url": ""
@@ -96,146 +93,50 @@
 
 
     {
-      "id": "legal_rights",
+      "id": "legal_trust",
 
-      "title": "Legal Rights, Lawyer Accountability & Client Protection",
+      "title": "Trust Review, Legal Rights & Trustee Oversight",
 
-      "description": "Research supporting understanding of legal representation, professional obligations, and client rights.",
-
-      "sources": [
-
-        {
-          "id": "law_society_bc",
-
-          "organization": "Law Society of British Columbia",
-
-          "type": "professional_regulator",
-
-          "importance": "critical",
-
-          "topics": [
-            "Lawyer professional obligations",
-            "Client communication duties",
-            "Complaints process",
-            "Professional misconduct",
-            "Discipline decisions"
-          ],
-
-          "supports": [
-            "Understanding lawyer responsibilities",
-            "Knowing available complaint processes"
-          ],
-
-          "url": ""
-        },
-
-
-        {
-          "id": "lawyer_negligence",
-
-          "organization": "Legal Information Research",
-
-          "type": "legal_research",
-
-          "importance": "high",
-
-          "topics": [
-            "Professional negligence",
-            "Failure to communicate",
-            "Missed deadlines",
-            "Failure to advise clients",
-            "Documentation failures"
-          ],
-
-          "supports": [
-            "Recognizing potential legal service issues",
-            "Maintaining records"
-          ],
-
-          "url": ""
-        },
-
-
-        {
-          "id": "client_documentation",
-
-          "organization": "Legal Practice Guidance",
-
-          "type": "legal_research",
-
-          "importance": "high",
-
-          "topics": [
-            "Keeping correspondence",
-            "Maintaining timelines",
-            "Requesting documentation",
-            "Obtaining second opinions"
-          ],
-
-          "supports": [
-            "Legal preparation",
-            "Trustee communication"
-          ],
-
-          "url": ""
-        }
-
-      ]
-    },
-
-
-    {
-      "id": "estate_trust",
-
-      "title": "Estate, Trustee & Fiduciary Responsibilities",
-
-      "description": "Research supporting understanding of estates, trusts, trustees, and financial responsibility.",
+      "description": "Research supporting trust administration, beneficiary rights, trustee responsibilities, and legal preparation.",
 
       "sources": [
 
         {
-          "id": "bc_estate_law",
+          "id": "trust_review",
 
-          "organization": "Courts of British Columbia",
-
-          "type": "government",
-
-          "importance": "critical",
-
-          "topics": [
-            "Estate administration",
-            "Probate",
-            "Executors",
-            "Beneficiaries",
-            "Estate procedures"
-          ],
-
-          "supports": [
-            "Estate planning understanding"
-          ],
-
-          "url": ""
-        },
-
-
-        {
-          "id": "trustee_responsibilities",
-
-          "organization": "British Columbia Trust Law Resources",
+          "organization": "Legal Research Resources",
 
           "type": "legal_research",
 
           "importance": "critical",
 
           "topics": [
-            "Fiduciary duty",
-            "Trustee obligations",
-            "Asset management",
-            "Accounting responsibilities"
+            "Trustee duties",
+            "Beneficiary rights",
+            "Trust accounting",
+            "Trustee replacement",
+            "Court applications"
           ],
 
           "supports": [
-            "Understanding trustee oversight"
+            "Understanding trust structure",
+            "Preparing lawyer meetings"
+          ],
+
+          "related_documents": [
+            "LawyerAppointmentQuestions.pdf",
+            "OnyxLawGroupPreScreenQuestions.pdf"
+          ],
+
+          "related_pages": [
+            "legal-dashboard.html",
+            "lawyer-appointment.html"
+          ],
+
+          "action_items": [
+            "Collect trust documents",
+            "Prepare lawyer questions",
+            "Request financial records"
           ],
 
           "url": ""
@@ -246,57 +147,47 @@
 
 
     {
-      "id": "recovery_support",
+      "id": "legal_preparation",
 
-      "title": "Recovery, Reintegration & Community Support",
+      "title": "Lawyer Appointment Preparation",
 
-      "description": "Research supporting recovery stability, housing, community connection, and long-term independence.",
+      "description": "Resources supporting organized legal meetings and documentation preparation.",
 
       "sources": [
 
         {
-          "id": "bc_health_recovery",
+          "id": "lawyer_questions",
 
-          "organization": "Government of British Columbia Health Resources",
+          "organization": "Brenden Legal Preparation",
 
-          "type": "government",
+          "type": "prepared_resource",
 
-          "importance": "high",
+          "importance": "critical",
 
           "topics": [
-            "Substance use recovery",
-            "Treatment resources",
-            "Community supports",
-            "Continuity of care"
+            "Lawyer meetings",
+            "Trust questions",
+            "Evidence preparation",
+            "Document organization"
           ],
 
           "supports": [
-            "Recovery planning"
+            "Efficient legal consultation"
           ],
 
-          "url": ""
-        },
-
-
-        {
-          "id": "recovery_housing",
-
-          "organization": "Recovery Housing Research",
-
-          "type": "academic_research",
-
-          "importance": "high",
-
-          "topics": [
-            "Recovery housing outcomes",
-            "Stable housing impact",
-            "Peer support",
-            "Long-term recovery"
+          "related_documents": [
+            "LawyerAppointmentQuestions.pdf",
+            "OnyxLawGroupPreScreenQuestions.pdf"
           ],
 
-          "supports": [
-            "Relocation planning",
-            "Housing decisions"
+          "related_pages": [
+            "lawyer-appointment.html"
+          ],
+
+          "action_items": [
+            "Review questions",
+            "Bring required documents",
+            "Record legal advice"
           ],
 
           "url": ""
@@ -307,80 +198,98 @@
 
 
     {
-      "id": "financial_independence",
+      "id": "government_benefits",
 
-      "title": "Financial Planning & Cost of Living",
+      "title": "Government Benefits & Income Support",
 
-      "description": "Research supporting budgeting, banking, savings, and independence planning.",
+      "description": "Research supporting disability benefits, income assistance, and financial stability.",
 
       "sources": [
 
         {
-          "id": "statistics_canada",
+          "id": "alberta_disability",
 
-          "organization": "Statistics Canada",
+          "organization": "Government of Alberta",
 
           "type": "government",
 
-          "importance": "high",
+          "importance": "critical",
 
           "topics": [
-            "Cost of living statistics",
-            "Housing costs",
-            "Income data",
-            "Regional expenses"
+            "Disability benefits",
+            "Application requirements",
+            "Payment schedules"
           ],
 
           "supports": [
-            "Budget planning",
-            "Relocation decisions"
+            "Income stability planning"
+          ],
+
+          "related_documents": [
+            "AlbertaDisabilitiesBenefitsApplication.pdf"
+          ],
+
+          "related_pages": [
+            "benefits.html"
+          ],
+
+          "action_items": [
+            "Complete application",
+            "Gather supporting records",
+            "Confirm payment details"
           ],
 
           "url": ""
-        },
+        }
+
+      ]
+    },
 
 
-        {
-          "id": "cmhc",
+    {
+      "id": "banking_financial",
 
-          "organization": "Canada Mortgage and Housing Corporation",
+      "title": "Banking Setup & Financial Independence",
 
-          "type": "government",
+      "description": "Research supporting independent banking, direct deposits, budgeting, and money management.",
 
-          "importance": "high",
-
-          "topics": [
-            "Rental market reports",
-            "Housing affordability",
-            "Regional housing data"
-          ],
-
-          "supports": [
-            "Housing research"
-          ],
-
-          "url": ""
-        },
-
+      "sources": [
 
         {
-          "id": "financial_consumer_agency",
+          "id": "banking_transition",
 
-          "organization": "Financial Consumer Agency of Canada",
+          "organization": "Canadian Banking Research",
 
-          "type": "government",
+          "type": "financial_research",
 
           "importance": "high",
 
           "topics": [
             "Bank accounts",
-            "Budgeting",
-            "Savings",
-            "Credit management"
+            "Direct deposit",
+            "Fees",
+            "Financial independence"
           ],
 
           "supports": [
-            "Financial independence planning"
+            "Creating personal financial systems"
+          ],
+
+          "related_documents": [
+            "CanadianBankComparison.pdf",
+            "BCServicesDirectDepositRequest.pdf",
+            "AlbertaDirectDepositRequest.pdf"
+          ],
+
+          "related_pages": [
+            "banking.html",
+            "budget.html"
+          ],
+
+          "action_items": [
+            "Compare banking options",
+            "Open account",
+            "Complete direct deposit forms"
           ],
 
           "url": ""
@@ -391,35 +300,163 @@
 
 
     {
-      "id": "documentation_security",
+      "id": "recovery_housing",
 
-      "title": "Document Management & Personal Security",
+      "title": "Recovery Housing & Transition Support",
 
-      "description": "Research supporting organization, protection, and accessibility of important records.",
+      "description": "Research supporting sober living, recovery residences, and post-treatment housing.",
 
       "sources": [
 
         {
-          "id": "document_management",
+          "id": "recovery_housing_directory",
 
-          "organization": "Government Recordkeeping Guidance",
+          "organization": "Recovery Housing Directory",
 
-          "type": "best_practice",
+          "type": "community_resource",
+
+          "importance": "critical",
+
+          "topics": [
+            "Sober living",
+            "Recovery residences",
+            "Post-treatment transition",
+            "Community support"
+          ],
+
+          "supports": [
+            "Housing decisions",
+            "Relocation planning"
+          ],
+
+          "related_documents": [
+            "BudgetPlanning.pdf"
+          ],
+
+          "related_pages": [
+            "recovery-houses.html",
+            "lloydminster.html"
+          ],
+
+          "action_items": [
+            "Contact housing programs",
+            "Confirm eligibility",
+            "Verify costs",
+            "Ask accommodation questions"
+          ],
+
+          "url": ""
+        }
+
+      ]
+    },
+
+
+    {
+      "id": "health_planning",
+
+      "title": "Health Restoration Planning",
+
+      "description": "Research supporting healthcare planning and dental restoration goals.",
+
+      "sources": [
+
+        {
+          "id": "dental_restoration",
+
+          "organization": "BC Dental Cost Research",
+
+          "type": "health_research",
 
           "importance": "medium",
 
           "topics": [
-            "Document storage",
-            "Backup procedures",
-            "Secure records",
-            "Personal information protection"
+            "Dental implants",
+            "Veneers",
+            "Treatment costs"
           ],
 
           "supports": [
-            "Secure document storage system"
+            "Dental financial planning"
+          ],
+
+          "related_documents": [
+            "BCDentalImplantandVeneersCostEstimate.pdf"
+          ],
+
+          "related_pages": [
+            "health.html"
+          ],
+
+          "action_items": [
+            "Schedule consultation",
+            "Compare treatment options",
+            "Plan funding"
           ],
 
           "url": ""
+        }
+
+      ]
+    },
+
+
+    {
+      "id": "prepared_documents",
+
+      "title": "Prepared Document Library",
+
+      "description": "Generated documents supporting transition planning.",
+
+      "sources": [
+
+        {
+          "id": "document_library",
+
+          "organization": "Brenden Transition Planning",
+
+          "type": "prepared_resource",
+
+          "importance": "critical",
+
+          "documents": [
+
+            {
+              "name": "Alberta Birth Certificate Application",
+              "file": "AlbertaBirthCertificateApplication.pdf"
+            },
+
+            {
+              "name": "Lawyer Appointment Questions",
+              "file": "LawyerAppointmentQuestions.pdf"
+            },
+
+            {
+              "name": "Budget Planning",
+              "file": "BudgetPlanning.pdf"
+            },
+
+            {
+              "name": "Canadian Bank Comparison",
+              "file": "CanadianBankComparison.pdf"
+            },
+
+            {
+              "name": "Dental Implant and Veneers Estimate",
+              "file": "BCDentalImplantandVeneersCostEstimate.pdf"
+            }
+
+          ],
+
+          "related_pages": [
+            "documents.html"
+          ],
+
+          "action_items": [
+            "Maintain organized document storage",
+            "Update records regularly"
+          ]
+
         }
 
       ]

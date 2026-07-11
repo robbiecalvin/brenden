@@ -1,25 +1,16 @@
-// Research Sources Module
-
-
 export async function loadSources(){
 
 
 const response =
-await fetch("../data/sources.json");
+await fetch(
+"../data/sources.json"
+);
+
 
 
 const data =
 await response.json();
 
-
-renderSources(data);
-
-
-}
-
-
-
-function renderSources(data){
 
 
 const container =
@@ -32,12 +23,30 @@ document.getElementById(
 container.innerHTML = `
 
 
+<div class="sources-header">
+
+
+<h1>
+${data.meta.title}
+</h1>
+
+
+<p>
+${data.meta.purpose}
+</p>
+
+
+</div>
+
+
+
 <div class="sources-grid">
 
 
 ${
 
 data.categories.map(category=>`
+
 
 
 <section class="source-category">
@@ -49,8 +58,9 @@ ${category.title}
 
 
 <p>
-${category.description || ""}
+${category.description}
 </p>
+
 
 
 
@@ -67,33 +77,21 @@ ${source.organization}
 </h3>
 
 
-
 <p>
-
-<strong>
-Type:
-</strong>
-
+<strong>Type:</strong>
 ${source.type}
-
 </p>
 
 
-
 <p>
-
-<strong>
-Importance:
-</strong>
-
+<strong>Importance:</strong>
 ${source.importance}
-
 </p>
 
 
 
 <h4>
-Research Topics
+Topics
 </h4>
 
 
@@ -138,24 +136,57 @@ ${item}
 
 
 
+${source.related_documents ? `
+
+<h4>
+Related Documents
+</h4>
+
+
+<ul>
+
 ${
-source.url ?
 
-`
+source.related_documents.map(doc=>`
 
-<a href="${source.url}" target="_blank">
+<li>
+📄 ${doc}
+</li>
 
-View Source
-
-</a>
-
-`
-
-:
-
-""
+`).join("")
 
 }
+
+</ul>
+
+` : ""}
+
+
+
+${source.action_items ? `
+
+<h4>
+Action Items
+</h4>
+
+
+<ul>
+
+${
+
+source.action_items.map(action=>`
+
+<li>
+☐ ${action}
+</li>
+
+`).join("")
+
+}
+
+</ul>
+
+` : ""}
 
 
 
@@ -169,6 +200,7 @@ View Source
 
 
 </section>
+
 
 
 `).join("")

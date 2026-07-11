@@ -63,9 +63,9 @@ ${createCards([
 
 
 [
-"📅 Timeline",
-"See what happens next",
-"timeline.html",
+"⚖️ Legal Transition",
+"To be completed in the last 2 weeks of treatment",
+"legal-transition.html",
 "step3.png"
 ]
 
@@ -122,16 +122,8 @@ ${createCards([
 [
 "📚 Lawyer Meeting",
 "Prepare for legal consultation",
-"questions-for-lawyer.html",
+"lawyer-appointment.html",
 "step7.png"
-],
-
-
-[
-"📄 Legal Binder",
-"Prepare printable lawyer package",
-"legal-binder.html",
-"step8.png"
 ]
 
 
@@ -158,7 +150,7 @@ ${createCards([
 [
 "🏠 Recovery Housing",
 "Compare safe housing options",
-"housing-details.html",
+"recovery-houses.html",
 "step9.png"
 ],
 
@@ -189,38 +181,6 @@ ${createCards([
 
 
 
-
-<section class="dashboard-section">
-
-
-<h2>
-Documents
-</h2>
-
-
-${createCards([
-
-
-[
-"📁 Document Vault",
-"Track important paperwork",
-"documents.html",
-"step12.png"
-],
-
-
-[
-"📑 Export Packages",
-"Create printable records",
-"legal-export.html",
-"step13.png"
-]
-
-
-])}
-
-
-</section>
 
 
 `;

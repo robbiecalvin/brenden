@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+
+<meta charset="UTF-8">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Housing Details</title>
+
+
+<link rel="stylesheet" href="../css/reset.css">
+
+<link rel="stylesheet" href="../css/layout.css">
+
+<link rel="stylesheet" href="../css/planning.css">
+
+
+<link rel="stylesheet" href="../css/theme.css">
+
+</head>
+
+
+
+
+<body>
+
+
+<header class="page-header">
+
+<div>
+
+<h1>
+Recovery Housing Directory
+</h1>
+
+
+<p>
+Recovery transition options and sober living resources
+</p>
+
+</div>
+
+
+<a href="dashboard.html">
+<img 
+class="logo" 
+src="../assets/images/brendenlogo.png"
+>
+</a>
+
+
+</header>
+
+
+
+<main id="recovery-houses-container">
+
+</main>
+
+
+
+<script type="module">
+
+import {
+loadRecoveryHouses
+}
+from "../js/recovery-houses.js";
+
+
+loadRecoveryHouses();
+
+
+</script>
+
+
+
+</body>
+
+
+</html>

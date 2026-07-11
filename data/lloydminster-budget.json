@@ -102,13 +102,13 @@
 
 
     {
-      "id": "brenden_robbie_lloydminster",
+      "id": "brenden_Partner_lloydminster",
 
 
-      "title": "Scenario 2: Brenden and Robbie Build a Home",
+      "title": "Scenario 2: Brenden and Partner Build a Home",
 
 
-      "description": "Brenden and Robbie establish a shared household with employment income, pets, transportation, and long-term planning.",
+      "description": "Brenden and Partner establish a shared household with employment income, pets, transportation, and long-term planning.",
 
 
       "people": 2,
@@ -123,7 +123,7 @@
 
 
         {
-          "name": "Robbie Full Time Alberta Employment",
+          "name": "Partner Full Time Alberta Employment",
           "amount": 2100
         }
 

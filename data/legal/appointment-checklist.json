@@ -32,40 +32,44 @@
     }
   ],
 
+
   "lawyer_questions": [
     {
-      "category": "Trust Structure",
+      "category": "Trust Administration & Oversight",
       "items": [
-        "What type of trust arrangement exists?",
-        "What rights does the beneficiary have?",
-        "What documents should be reviewed?"
+        "What legal options are available for replacing or removing a trustee?",
+        "What records and documentation should be formally requested from the current trustee?",
+        "What rights and protections does the beneficiary have under this trust arrangement?",
+        "What is the typical timeline for reviewing, challenging, or modifying a trust structure?",
+        "What legal and administrative costs should be anticipated throughout this process?"
       ]
     },
     {
-      "category": "Trustee Options",
+      "category": "Trust Structure & Documentation",
       "items": [
-        "What options exist regarding trustee changes?",
-        "Is court involvement required?",
-        "What information is needed?"
+        "What type of trust arrangement is currently in place, and how does it impact the beneficiary?",
+        "What specific rights does the beneficiary hold within this structure?",
+        "Which documents are essential to review in order to fully understand the trust’s terms and obligations?"
       ]
     },
     {
-      "category": "Financial Management",
+      "category": "Trustee Review & Alternatives",
       "items": [
-        "How should future payments be handled?",
-        "What records should be maintained?",
-        "What budgeting support is recommended?"
+        "What formal options exist for changing or challenging the current trustee?",
+        "Under what circumstances would court involvement be required?",
+        "What evidence or documentation is necessary to support a trustee change?"
+      ]
+    },
+    {
+      "category": "Financial Management & Planning",
+      "items": [
+        "What is the recommended approach for managing and distributing future payments?",
+        "What financial records should be consistently maintained to ensure transparency and accountability?",
+        "What budgeting strategies or support systems would you recommend for long-term financial stability?"
       ]
     }
   ],
 
-  "appointment_questions": [
-    "What options exist for changing trustees?",
-    "What records should be requested?",
-    "What rights does the beneficiary have?",
-    "What is the expected timeline?",
-    "What costs should be expected?"
-  ],
 
   "bring": [
     "Government identification",
@@ -73,5 +77,15 @@
     "Financial records",
     "Communication records",
     "Timeline of events"
+  ],
+
+
+  "appointment_questions": [
+    "What options exist for changing trustees?",
+    "What records should be requested?",
+    "What rights does the beneficiary have?",
+    "What is the expected timeline?",
+    "What costs should be expected?"
   ]
+
 }
