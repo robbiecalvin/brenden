@@ -49,7 +49,7 @@ ${createCards([
 [
 "🪪 Identity Recovery",
 "Replace ID documents and prepare banking access",
-"pages/identity.html",
+"identity.html",
 "step1.png"
 ],
 
@@ -57,7 +57,7 @@ ${createCards([
 [
 "💵 Benefits Protection",
 "Make sure income continues after discharge",
-"pages/benefits.html",
+"benefits.html",
 "step2.png"
 ],
 
@@ -65,7 +65,7 @@ ${createCards([
 [
 "📅 Timeline",
 "See what happens next",
-"pages/timeline.html",
+"timeline.html",
 "step3.png"
 ]
 
@@ -98,7 +98,7 @@ ${createCards([
 [
 "📂 Legal Dashboard",
 "Trust transition preparation",
-"pages/legal-dashboard.html",
+"legal-dashboard.html",
 "step4.png"
 ],
 
@@ -106,7 +106,7 @@ ${createCards([
 [
 "📝 Timeline Builder",
 "Record important dates and events",
-"pages/incident-timeline.html",
+"incident-timeline.html",
 "step5.png"
 ],
 
@@ -114,7 +114,7 @@ ${createCards([
 [
 "💬 Communication Log",
 "Organize important communications",
-"pages/communication-log.html",
+"communication-log.html",
 "step6.png"
 ],
 
@@ -122,7 +122,7 @@ ${createCards([
 [
 "📚 Lawyer Meeting",
 "Prepare for legal consultation",
-"pages/lawyer-appointment.html",
+"lawyer-appointment.html",
 "step7.png"
 ],
 
@@ -130,7 +130,7 @@ ${createCards([
 [
 "📄 Legal Binder",
 "Prepare printable lawyer package",
-"pages/legal-binder.html",
+"legal-binder.html",
 "step8.png"
 ]
 
@@ -158,25 +158,27 @@ ${createCards([
 [
 "🏠 Recovery Housing",
 "Compare safe housing options",
-"pages/housing-details.html",
+"recovery.html",
 "step9.png"
+],
+
+[
+"💰 Budget Planning",
+"Build realistic financial scenarios",
+"budget.html",
+"step11.png"
 ],
 
 
 [
 "📍 Lloydminster Plan",
 "Relocation research and budgeting",
-"pages/lloydminster.html",
+"lloydminster.html",
 "step10.png"
-],
-
-
-[
-"💰 Budget Planning",
-"Build realistic financial scenarios",
-"pages/budget-dashboard.html",
-"step11.png"
 ]
+
+
+
 
 
 ])}
@@ -202,7 +204,7 @@ ${createCards([
 [
 "📁 Document Vault",
 "Track important paperwork",
-"pages/documents.html",
+"documents.html",
 "step12.png"
 ],
 
@@ -210,7 +212,7 @@ ${createCards([
 [
 "📑 Export Packages",
 "Create printable records",
-"pages/legal-export.html",
+"legal-export.html",
 "step13.png"
 ]
 

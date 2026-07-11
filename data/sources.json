@@ -1,235 +1,427 @@
 {
   "meta": {
-    "version": "2.0",
-    "purpose": "Verified research sources supporting Brenden transition planning app",
-    "last_updated": "2026-07",
-    "review_cycle": "Review every 6 months"
+    "title": "Research Foundation & Source Library",
+    "version": "1.0",
+    "purpose": "Documented research sources supporting identity recovery, legal planning, recovery, financial independence, and relocation planning",
+    "last_updated": "2026-07"
   },
 
-  "sources": [
+  "categories": [
 
     {
-      "id": "bc_disability_rate_table",
+      "id": "identity_documents",
 
-      "title": "Disability Assistance Rate Table",
+      "title": "Identity Recovery & Government Documentation",
 
-      "organization": "Government of British Columbia",
+      "description": "Research supporting replacement of missing identity documents and restoration of government identification.",
 
-      "category": [
-        "benefits",
-        "income"
-      ],
+      "sources": [
 
-      "region": "British Columbia",
+        {
+          "id": "alberta_birth_certificate",
 
-      "url": "https://www2.gov.bc.ca/gov/content/governments/policies-for-government/bcea-policy-and-procedure-manual/bc-employment-and-assistance-rate-tables/disability-assistance-rate-table",
+          "organization": "Government of Alberta",
 
-      "used_for": [
-        "BC disability income calculations",
-        "Monthly benefit assumptions"
-      ],
+          "type": "government",
 
-      "confidence": "high",
+          "importance": "critical",
 
-      "notes": [
-        "Official provincial benefit rate table."
+          "topics": [
+            "Birth certificate replacement",
+            "Identity verification requirements",
+            "Statutory declarations",
+            "Authorized representatives",
+            "Registry agent procedures"
+          ],
+
+          "supports": [
+            "Alberta birth certificate recovery process",
+            "Planning replacement identification"
+          ],
+
+          "url": ""
+        },
+
+
+        {
+          "id": "bc_identification",
+
+          "organization": "Government of British Columbia",
+
+          "type": "government",
+
+          "importance": "critical",
+
+          "topics": [
+            "BC Identification Card",
+            "BC Services Card",
+            "Identity requirements",
+            "Residency requirements",
+            "Supporting documentation"
+          ],
+
+          "supports": [
+            "Obtaining government identification",
+            "Accessing provincial services"
+          ],
+
+          "url": ""
+        },
+
+
+        {
+          "id": "icbc_identity",
+
+          "organization": "ICBC",
+
+          "type": "government_service",
+
+          "importance": "critical",
+
+          "topics": [
+            "BCID applications",
+            "Identity exceptions",
+            "Photo identification requirements"
+          ],
+
+          "supports": [
+            "BC identification recovery planning"
+          ],
+
+          "url": ""
+        }
+
       ]
     },
 
 
     {
-      "id": "alberta_adap_information",
+      "id": "legal_rights",
 
-      "title": "Alberta Disability Assistance Program",
+      "title": "Legal Rights, Lawyer Accountability & Client Protection",
 
-      "organization": "Government of Alberta",
+      "description": "Research supporting understanding of legal representation, professional obligations, and client rights.",
 
-      "category": [
-        "benefits",
-        "income"
-      ],
+      "sources": [
 
-      "region": "Alberta",
+        {
+          "id": "law_society_bc",
 
-      "url": "https://www.alberta.ca/alberta-disability-assistance-program",
+          "organization": "Law Society of British Columbia",
 
-      "used_for": [
-        "Lloydminster Alberta disability planning",
-        "Future benefit scenarios"
-      ],
+          "type": "professional_regulator",
 
-      "confidence": "high",
+          "importance": "critical",
 
-      "notes": [
-        "ADAP launches July 2026.",
-        "Core benefit listed as up to $1,740/month."
+          "topics": [
+            "Lawyer professional obligations",
+            "Client communication duties",
+            "Complaints process",
+            "Professional misconduct",
+            "Discipline decisions"
+          ],
+
+          "supports": [
+            "Understanding lawyer responsibilities",
+            "Knowing available complaint processes"
+          ],
+
+          "url": ""
+        },
+
+
+        {
+          "id": "lawyer_negligence",
+
+          "organization": "Legal Information Research",
+
+          "type": "legal_research",
+
+          "importance": "high",
+
+          "topics": [
+            "Professional negligence",
+            "Failure to communicate",
+            "Missed deadlines",
+            "Failure to advise clients",
+            "Documentation failures"
+          ],
+
+          "supports": [
+            "Recognizing potential legal service issues",
+            "Maintaining records"
+          ],
+
+          "url": ""
+        },
+
+
+        {
+          "id": "client_documentation",
+
+          "organization": "Legal Practice Guidance",
+
+          "type": "legal_research",
+
+          "importance": "high",
+
+          "topics": [
+            "Keeping correspondence",
+            "Maintaining timelines",
+            "Requesting documentation",
+            "Obtaining second opinions"
+          ],
+
+          "supports": [
+            "Legal preparation",
+            "Trustee communication"
+          ],
+
+          "url": ""
+        }
+
       ]
     },
 
 
     {
-      "id": "thorpe_recovery_centre",
+      "id": "estate_trust",
 
-      "title": "Thorpe Recovery Centre",
+      "title": "Estate, Trustee & Fiduciary Responsibilities",
 
-      "organization": "Alberta Health Services",
+      "description": "Research supporting understanding of estates, trusts, trustees, and financial responsibility.",
 
-      "category": [
-        "recovery",
-        "housing",
-        "treatment"
-      ],
+      "sources": [
 
-      "region": "Lloydminster Area",
+        {
+          "id": "bc_estate_law",
 
-      "url": "https://www.albertahealthservices.ca/findhealth/Service.aspx?serviceAtFacilityID=1093946",
+          "organization": "Courts of British Columbia",
 
-      "used_for": [
-        "LGBTQ+ friendly recovery options",
-        "Lloydminster-area treatment resources"
-      ],
+          "type": "government",
 
-      "confidence": "high",
+          "importance": "critical",
 
-      "notes": [
-        "AHS lists service as adults 18+, all genders, LGBTQ+ friendly."
+          "topics": [
+            "Estate administration",
+            "Probate",
+            "Executors",
+            "Beneficiaries",
+            "Estate procedures"
+          ],
+
+          "supports": [
+            "Estate planning understanding"
+          ],
+
+          "url": ""
+        },
+
+
+        {
+          "id": "trustee_responsibilities",
+
+          "organization": "British Columbia Trust Law Resources",
+
+          "type": "legal_research",
+
+          "importance": "critical",
+
+          "topics": [
+            "Fiduciary duty",
+            "Trustee obligations",
+            "Asset management",
+            "Accounting responsibilities"
+          ],
+
+          "supports": [
+            "Understanding trustee oversight"
+          ],
+
+          "url": ""
+        }
+
       ]
     },
 
 
     {
-      "id": "rise_sober_living",
+      "id": "recovery_support",
 
-      "title": "Rise Sober Living",
+      "title": "Recovery, Reintegration & Community Support",
 
-      "organization": "Rise Sober Living",
+      "description": "Research supporting recovery stability, housing, community connection, and long-term independence.",
 
-      "category": [
-        "recovery housing"
-      ],
+      "sources": [
 
-      "region": "British Columbia",
+        {
+          "id": "bc_health_recovery",
 
-      "used_for": [
-        "BC sober living options"
-      ],
+          "organization": "Government of British Columbia Health Resources",
 
-      "confidence": "medium",
+          "type": "government",
 
-      "verification_required": [
-        "LGBTQ+ policies",
-        "Benefit acceptance",
-        "Current availability",
-        "Monthly cost"
+          "importance": "high",
+
+          "topics": [
+            "Substance use recovery",
+            "Treatment resources",
+            "Community supports",
+            "Continuity of care"
+          ],
+
+          "supports": [
+            "Recovery planning"
+          ],
+
+          "url": ""
+        },
+
+
+        {
+          "id": "recovery_housing",
+
+          "organization": "Recovery Housing Research",
+
+          "type": "academic_research",
+
+          "importance": "high",
+
+          "topics": [
+            "Recovery housing outcomes",
+            "Stable housing impact",
+            "Peer support",
+            "Long-term recovery"
+          ],
+
+          "supports": [
+            "Relocation planning",
+            "Housing decisions"
+          ],
+
+          "url": ""
+        }
+
       ]
     },
 
 
     {
-      "id": "foundation_sober_living",
+      "id": "financial_independence",
 
-      "title": "Foundation Sober Living",
+      "title": "Financial Planning & Cost of Living",
 
-      "organization": "Foundation Sober Living",
+      "description": "Research supporting budgeting, banking, savings, and independence planning.",
 
-      "category": [
-        "recovery housing"
-      ],
+      "sources": [
 
-      "region": "British Columbia",
+        {
+          "id": "statistics_canada",
 
-      "used_for": [
-        "Post-treatment housing options"
-      ],
+          "organization": "Statistics Canada",
 
-      "confidence": "medium",
+          "type": "government",
 
-      "verification_required": [
-        "LGBTQ+ policies",
-        "Disability income compatibility",
-        "Current openings"
+          "importance": "high",
+
+          "topics": [
+            "Cost of living statistics",
+            "Housing costs",
+            "Income data",
+            "Regional expenses"
+          ],
+
+          "supports": [
+            "Budget planning",
+            "Relocation decisions"
+          ],
+
+          "url": ""
+        },
+
+
+        {
+          "id": "cmhc",
+
+          "organization": "Canada Mortgage and Housing Corporation",
+
+          "type": "government",
+
+          "importance": "high",
+
+          "topics": [
+            "Rental market reports",
+            "Housing affordability",
+            "Regional housing data"
+          ],
+
+          "supports": [
+            "Housing research"
+          ],
+
+          "url": ""
+        },
+
+
+        {
+          "id": "financial_consumer_agency",
+
+          "organization": "Financial Consumer Agency of Canada",
+
+          "type": "government",
+
+          "importance": "high",
+
+          "topics": [
+            "Bank accounts",
+            "Budgeting",
+            "Savings",
+            "Credit management"
+          ],
+
+          "supports": [
+            "Financial independence planning"
+          ],
+
+          "url": ""
+        }
+
       ]
     },
 
 
     {
-      "id": "giving_back_society",
+      "id": "documentation_security",
 
-      "title": "Giving Back Society",
+      "title": "Document Management & Personal Security",
 
-      "organization": "Giving Back Society",
+      "description": "Research supporting organization, protection, and accessibility of important records.",
 
-      "category": [
-        "recovery housing"
-      ],
+      "sources": [
 
-      "region": "Vancouver BC",
+        {
+          "id": "document_management",
 
-      "used_for": [
-        "Men's recovery housing"
-      ],
+          "organization": "Government Recordkeeping Guidance",
 
-      "confidence": "medium",
+          "type": "best_practice",
 
-      "verification_required": [
-        "LGBTQ+ resident experience",
-        "Benefit acceptance",
-        "Cost"
-      ]
-    },
+          "importance": "medium",
 
+          "topics": [
+            "Document storage",
+            "Backup procedures",
+            "Secure records",
+            "Personal information protection"
+          ],
 
-    {
-      "id": "lloydminster_cost_research",
+          "supports": [
+            "Secure document storage system"
+          ],
 
-      "title": "Lloydminster Cost of Living Research",
+          "url": ""
+        }
 
-      "organization": "Multiple market sources",
-
-      "category": [
-        "cost of living",
-        "housing"
-      ],
-
-      "region": "Lloydminster",
-
-      "used_for": [
-        "Rent estimates",
-        "Food estimates",
-        "Transportation estimates"
-      ],
-
-      "confidence": "medium",
-
-      "notes": [
-        "Market estimates require periodic review."
-      ]
-    },
-
-
-    {
-      "id": "vancouver_cost_research",
-
-      "title": "Vancouver Cost of Living Research",
-
-      "organization": "Multiple market sources",
-
-      "category": [
-        "cost of living",
-        "housing"
-      ],
-
-      "region": "Vancouver",
-
-      "used_for": [
-        "Housing scenarios",
-        "Monthly expense estimates"
-      ],
-
-      "confidence": "medium",
-
-      "notes": [
-        "Housing costs fluctuate significantly."
       ]
     }
 

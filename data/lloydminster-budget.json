@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "version": "1.0",
+    "currency": "CAD",
+    "purpose": "Lloydminster independence budget planning",
+    "last_updated": "2026-07",
+    "note": "Planning estimates for post-trustee transition."
+  },
+
+
+  "scenarios": [
+
+
+    {
+      "id": "brenden_alone_lloydminster",
+
+      "title": "Scenario 1: Brenden Alone in Lloydminster",
+
+      "description": "Brenden establishes independent housing and manages trustee allowance without additional household income.",
+
+      "people": 1,
+
+
+      "income": [
+
+        {
+          "name": "Trustee Allowance",
+          "amount": 5000
+        }
+
+      ],
+
+
+      "housing": {
+
+        "type": "Two Bedroom Rental",
+
+        "notes": [
+          "Allows future flexibility for pets and family visits."
+        ]
+
+      },
+
+
+      "expenses": [
+
+        {
+          "category": "Housing",
+          "name": "Two Bedroom House Rental",
+          "amount": 1700
+        },
+
+        {
+          "category": "Utilities",
+          "name": "Power, Heat, Water",
+          "amount": 250
+        },
+
+        {
+          "category": "Internet",
+          "name": "Internet Service",
+          "amount": 100
+        },
+
+        {
+          "category": "Food",
+          "name": "Groceries",
+          "amount": 500
+        },
+
+        {
+          "category": "Transportation",
+          "name": "Vehicle, Fuel, Maintenance",
+          "amount": 500
+        },
+
+        {
+          "category": "Phone",
+          "name": "Mobile Phone",
+          "amount": 50
+        },
+
+        {
+          "category": "Personal",
+          "name": "Personal Care",
+          "amount": 200
+        },
+
+        {
+          "category": "Pets",
+          "name": "Two Dogs",
+          "amount": 300
+        }
+
+      ],
+
+
+      "monthly_remaining": 1400
+
+    },
+
+
+
+    {
+      "id": "brenden_robbie_lloydminster",
+
+
+      "title": "Scenario 2: Brenden and Robbie Build a Home",
+
+
+      "description": "Brenden and Robbie establish a shared household with employment income, pets, transportation, and long-term planning.",
+
+
+      "people": 2,
+
+
+      "income": [
+
+        {
+          "name": "Brenden Trustee Allowance",
+          "amount": 5000
+        },
+
+
+        {
+          "name": "Robbie Full Time Alberta Employment",
+          "amount": 2100
+        }
+
+      ],
+
+
+      "combined_income": 7100,
+
+
+
+      "housing": {
+
+        "type": "Two Bedroom House With Backyard",
+
+        "goal": "Pet-friendly home with gardening space and greenhouse potential"
+
+      },
+
+
+      "expenses": [
+
+        {
+
+          "category": "Housing",
+
+          "name": "House Rental",
+
+          "amount": 1700
+
+        },
+
+
+        {
+
+          "category": "Utilities",
+
+          "name": "Heat, Power, Water",
+
+          "amount": 250
+
+        },
+
+
+        {
+
+          "category": "Internet",
+
+          "amount": 100
+
+        },
+
+
+        {
+
+          "category": "Food",
+
+          "amount": 800
+
+        },
+
+
+        {
+
+          "category": "Transportation",
+
+          "name": "Vehicle Fuel and Maintenance",
+
+          "amount": 300
+
+        },
+
+
+        {
+
+          "category": "Vehicle",
+
+          "name": "Insurance",
+
+          "amount": 200
+
+        },
+
+
+        {
+
+          "category": "Phones",
+
+          "amount": 100
+
+        },
+
+
+        {
+
+          "category": "Personal",
+
+          "amount": 200
+
+        },
+
+
+        {
+
+          "category": "Smoking",
+
+          "amount": 110
+
+        },
+
+
+        {
+
+          "category": "Household",
+
+          "amount": 200
+
+        },
+
+
+        {
+
+          "category": "Dogs",
+
+          "name": "Food, Vet Savings, Supplies",
+
+          "amount": 300
+
+        }
+
+
+      ],
+
+
+      "monthly_expenses_total": 4260,
+
+
+      "monthly_remaining": 2840,
+
+
+      "six_month_projection": {
+
+        "income": 42600,
+
+        "expenses": 25560,
+
+        "savings": 17040
+
+      }
+
+
+    },
+
+
+
+    {
+      "id": "lloydminster_house_setup",
+
+
+      "title": "Long-Term Household Setup Plan",
+
+
+      "description": "Major purchases after stable monthly surplus is established.",
+
+
+      "startup_costs": [
+
+        {
+
+          "item": "Furniture and household supplies",
+
+          "amount": 6000
+
+        },
+
+
+        {
+
+          "item": "Two adopted dogs and veterinary setup",
+
+          "amount": 1600
+
+        },
+
+
+        {
+
+          "item": "Backyard greenhouse",
+
+          "amount": 2000
+
+        },
+
+
+        {
+
+          "item": "Reliable used vehicle",
+
+          "amount": 12000
+
+        }
+
+      ],
+
+
+      "total_startup_cost": 21600,
+
+
+      "strategy": [
+
+        "Secure housing first",
+
+        "Build emergency savings",
+
+        "Adopt pets after stable housing",
+
+        "Purchase vehicle after evaluating financing options",
+
+        "Build greenhouse as a long-term project"
+
+      ]
+
+    }
+
+
+  ]
+
+}

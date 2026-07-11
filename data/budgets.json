@@ -1,243 +1,75 @@
 {
-  "meta": {
-    "version": "2.0",
-    "currency": "CAD",
-    "purpose": "Cost-of-living planning model for Brenden transition planning",
-    "last_updated": "2026-07",
-    "warning": "Estimates are planning figures and should be reviewed before major financial decisions."
-  },
+  "phase_one": {
 
-  "sources": [
-    {
-      "id": "bc_disability_rates",
-      "name": "Province of British Columbia Disability Assistance Rate Table",
-      "type": "government",
-      "used_for": [
-        "BC disability income assumptions",
-        "BC shelter allowance"
+    "period": [
+      "October",
+      "November",
+      "December"
+    ],
+
+    "location": "British Columbia",
+
+    "housing": {
+
+      "type": "BC Housing",
+
+      "shelter_contribution": 500,
+
+      "notes": [
+        "BC Housing shelter contribution deducted from monthly benefits.",
+        "Brenden remains in supported housing while trustee matters are finalized."
       ]
+
     },
-    {
-      "id": "alberta_disability_rates",
-      "name": "Province of Alberta AISH and Alberta Disability Assistance Program Information",
-      "type": "government",
-      "used_for": [
-        "Alberta disability income assumptions"
-      ]
-    }
-  ],
 
-  "locations": {
+    "income": {
 
-    "vancouver_bc": {
+      "gross_monthly_benefits": 1483.50,
 
-      "name": "Vancouver, British Columbia",
+      "housing_deduction": 500,
 
-      "income_reference": {
-        "bc_disability_assistance": {
-          "monthly_amount": 983.50,
-          "source": "bc_disability_rates",
-          "confidence": "high"
-        }
+      "available_income_after_housing": 983.50
+
+    },
+
+
+    "expenses": [
+
+      {
+        "category": "Food",
+        "monthly": 350
       },
 
-      "single_person_monthly_budget": {
-
-        "housing": {
-          "shared_room": {
-            "amount": 900,
-            "confidence": "medium"
-          },
-          "private_room": {
-            "amount": 1200,
-            "confidence": "medium"
-          },
-          "one_bedroom_apartment": {
-            "amount": 2200,
-            "confidence": "medium"
-          }
-        },
-
-        "utilities": {
-          "electricity": 50,
-          "internet": 80,
-          "phone": 80
-        },
-
-        "food": {
-          "minimum": 350,
-          "realistic": 500
-        },
-
-        "transportation": {
-          "transit": 115,
-          "miscellaneous": 50
-        },
-
-        "personal": {
-          "medications": 50,
-          "hygiene": 75,
-          "clothing": 75
-        },
-
-        "emergency_buffer": 100
+      {
+        "category": "Smoking",
+        "monthly": 70
       },
 
+      {
+        "category": "Phone",
+        "monthly": 40
+      },
 
-      "estimated_totals": {
+      {
+        "category": "Internet",
+        "monthly": 25
+      },
 
-        "shared_housing": 1950,
-
-        "private_room": 2250,
-
-        "private_apartment": 3350
-
+      {
+        "category": "Personal Care",
+        "monthly": 100
       }
 
-    },
+    ],
 
+    "monthly_expenses_total": 585,
 
-    "lloydminster_ab_sk": {
+    "monthly_remaining": 398.50,
 
-      "name": "Lloydminster, Alberta/Saskatchewan",
+    "notes": [
+      "Remaining funds available for transportation, clothing, medical needs, savings, and transition expenses.",
+      "Trustee process target completion: January 1st."
+    ]
 
-      "income_reference": {
-
-        "alberta_disability_program": {
-          "monthly_amount": 1740,
-          "source": "alberta_disability_rates",
-          "confidence": "high",
-          "note": "Based on announced ADAP maximum benefit information."
-        }
-
-      },
-
-
-      "single_person_monthly_budget": {
-
-        "housing": {
-
-          "basic_rental": {
-            "amount": 1200,
-            "confidence": "medium"
-          }
-
-        },
-
-
-        "utilities": {
-
-          "electricity": 120,
-
-          "internet": 80,
-
-          "phone": 80
-
-        },
-
-
-        "food": {
-
-          "minimum": 350,
-
-          "realistic": 500
-
-        },
-
-
-        "transportation": {
-
-          "without_vehicle": 100,
-
-          "with_vehicle": 450
-
-        },
-
-
-        "personal": {
-
-          "medications": 50,
-
-          "hygiene": 75,
-
-          "clothing": 75
-
-        },
-
-
-        "emergency_buffer": 200
-
-      },
-
-
-      "estimated_totals": {
-
-        "without_vehicle": 2505,
-
-        "with_vehicle": 2855
-
-      }
-
-    }
-
-  },
-
-
-  "household_scenarios": [
-
-    {
-
-      "id": "brenden_alone",
-
-      "title": "Brenden Living Alone",
-
-      "people": 1,
-
-      "income_sources": [
-
-        "BC Disability Benefits"
-
-      ]
-
-    },
-
-
-    {
-
-      "id": "two_person_household_bc",
-
-      "title": "Two People Living Together in BC",
-
-      "people": 2,
-
-      "income_sources": [
-
-        "Disability Benefits",
-
-        "Income Assistance or Employment"
-
-      ]
-
-    },
-
-
-    {
-
-      "id": "lloydminster_future_trust",
-
-      "title": "Lloydminster Future Plan",
-
-      "people": 1,
-
-      "income_sources": [
-
-        "Trust Allowance"
-      ],
-
-      "monthly_income": 5000
-
-    }
-
-  ]
-
+  }
 }

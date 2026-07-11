@@ -1,0 +1,548 @@
+{
+  "meta": {
+    "version": "1.0",
+    "purpose": "Critical contact directory for identity, legal, recovery, financial, and transition planning",
+    "last_updated": "2026-07"
+  },
+
+  "categories": [
+
+    {
+      "id": "government",
+
+      "title": "Government Services",
+
+      "contacts": [
+
+        {
+          "id": "bc_ministry_disability",
+
+          "name": "BC Ministry of Social Development and Poverty Reduction",
+
+          "category": "Benefits",
+
+          "phone": "1-866-866-0800",
+
+          "purpose": [
+            "Disability assistance",
+            "Income assistance",
+            "Benefit questions",
+            "Payment information"
+          ],
+
+          "priority": "critical"
+        },
+
+
+        {
+          "id": "alberta_vital_statistics",
+
+          "name": "Alberta Vital Statistics / Service Alberta",
+
+          "category": "Identity Documents",
+
+          "phone": "780-427-7013",
+
+          "alternate": "310-0000 then 780-427-7013",
+
+          "purpose": [
+            "Birth certificate replacement",
+            "Vital records questions",
+            "Identity document recovery"
+          ],
+
+          "priority": "critical"
+        },
+
+
+   {
+  "id": "icbc",
+
+  "name": "ICBC Driver Licensing and Identification",
+
+  "category": "Identity Documents",
+
+  "phone": "1-800-950-1498",
+
+  "local_phone": "604-982-2250",
+
+  "purpose": [
+    "BCID application",
+    "BC Services Card process",
+    "Identity document exceptions",
+    "Driver licensing and identification questions"
+  ],
+
+  "priority": "critical"
+}
+
+      ]
+    },
+
+
+    {
+      "id": "legal",
+
+      "title": "Legal Support Contacts",
+
+      "contacts": [
+
+        {
+          "id": "onyx_law_group",
+
+          "name": "Onyx Law Group",
+
+          "category": "Estate and Trust Law",
+
+          "phone": "604-900-2538",
+
+          "location": "Vancouver, BC",
+
+          "purpose": [
+            "Estate planning",
+            "Trust matters",
+            "Legal consultation"
+          ],
+
+          "priority": "high"
+        },
+
+        {
+  "id": "lloydminster_trustee_law",
+
+  "name": "Knight Law Office",
+
+  "category": "Estate and Trust Law",
+
+  "phone": "780-875-9555",
+
+  "address": "4912 50 Ave, Lloydminster, AB T9V 0W6",
+
+  "purpose": [
+    "Estate planning",
+    "Trust questions",
+    "Wills",
+    "Legal guidance regarding assets and beneficiaries"
+  ],
+
+  "priority": "critical"
+},
+
+
+       {
+  "id": "law_society_bc_complaints",
+
+  "name": "Law Society of British Columbia - Professional Conduct",
+
+  "category": "Lawyer Regulation",
+
+  "phone": "604-605-5388",
+
+  "complaints_email": "professionalconduct@lsbc.org",
+
+  "purpose": [
+    "Lawyer complaints",
+    "Professional misconduct concerns",
+    "Ethical conduct concerns",
+    "Client protection"
+  ],
+
+  "priority": "high"
+},
+
+{
+  "id": "legal_aid_bc",
+
+  "name": "Legal Aid BC",
+
+  "category": "Free Legal Assistance",
+
+  "phone": "604-408-2172",
+
+  "province_wide_phone": "1-866-577-2525",
+
+  "purpose": [
+    "Free legal information",
+    "Legal advice eligibility",
+    "Representation eligibility",
+    "Legal resources"
+  ],
+
+  "priority": "high"
+}
+
+      ]
+    },
+
+
+    {
+      "id": "notary",
+
+      "title": "Notary Services",
+
+      "contacts": [
+
+   {
+  "id": "kitsilano_notary",
+
+  "name": "Malti Lotfali Notary Public",
+
+  "category": "Notary Services",
+
+  "phone": "604-773-0608",
+
+  "address": "2695 West Broadway, Vancouver, BC V6K 2G2",
+
+  "purpose": [
+    "Statutory declarations",
+    "Affidavits",
+    "Certified copies",
+    "Identity document notarization"
+  ],
+
+  "priority": "high"
+}
+
+      ]
+    },
+
+
+    {
+      "id": "trustee",
+
+      "title": "Trustee and Estate Oversight",
+
+      "contacts": [
+
+     {
+  "id": "public_guardian_trustee_bc",
+
+  "name": "Public Guardian and Trustee of British Columbia",
+
+  "category": "Trustee Services",
+
+  "phone": "604-660-4444",
+
+  "alternate_phone": "1-800-663-7867",
+
+  "purpose": [
+    "Trustee information",
+    "Estate administration",
+    "Adult financial protection information",
+    "Trust services"
+  ],
+
+  "priority": "critical"
+}
+
+      ]
+    },
+
+
+    {
+      "id": "recovery",
+
+      "title": "Recovery Housing and Support",
+
+      "contacts": [
+
+    {
+  "id": "rise_sober_living_bc",
+
+  "name": "Rise Sober Living",
+
+  "location": "British Columbia",
+
+  "city": "Multiple BC Locations",
+
+  "type": "Sober Living",
+
+  "gender": "Mixed",
+
+  "lgbtq_friendly": "Needs Confirmation",
+
+  "post_treatment": true,
+
+  "benefit_compatibility": "Needs Confirmation",
+
+  "phone": "403-619-6311",
+
+  "email": "info@risesoberliving.ca",
+
+  "cost": "Shared household expenses",
+
+  "notes": [
+    "Peer-run sober living model.",
+    "Requires commitment to sobriety.",
+    "BC Oxford House model expanding across the province."
+  ],
+
+  "source": "https://risesoberliving.ca/"
+},
+
+{
+  "id": "foundation_sober_living",
+
+  "name": "Foundation Sober Living",
+
+  "location": "British Columbia",
+
+  "city": "Multiple BC Locations",
+
+  "type": "Recovery Residence",
+
+  "gender": "Mixed",
+
+  "lgbtq_friendly": "Needs Confirmation",
+
+  "post_treatment": true,
+
+  "benefit_compatibility": "Needs Confirmation",
+
+  "phone": "604-451-9854",
+
+  "toll_free": "1-888-940-9854",
+
+  "email": "info@twcrecoverylife.org",
+
+  "cost": "Fee-based",
+
+  "notes": [
+    "Structured sober residences.",
+    "Live-in house managers.",
+    "Designed for transition after treatment.",
+    "Requires after-care planning."
+  ],
+
+  "source": "https://www.foundationsoberliving.ca/"
+},
+
+{
+  "id": "giving_back_vancouver",
+
+  "name": "Giving Back Recovery Society",
+
+  "location": "British Columbia",
+
+  "city": "Vancouver",
+
+  "type": "Recovery Housing",
+
+  "gender": "Men",
+
+  "lgbtq_friendly": "Needs Confirmation",
+
+  "post_treatment": true,
+
+  "benefit_compatibility": "Needs Confirmation",
+
+  "phone": "604-874-8555",
+
+  "email": "info@giving-back.ca",
+
+  "address": "3608 Knight Street, Vancouver BC V5N 3L5",
+
+  "cost": "Contact organization",
+
+  "notes": [
+    "Structured recovery housing for men.",
+    "Transition support after treatment.",
+    "Multiple recovery homes in Vancouver."
+  ],
+
+  "source": "https://www.giving-back.ca/"
+},
+
+{
+  "id": "residents_recovery_lloydminster",
+
+  "name": "Residents in Recovery Society",
+
+  "location": "Alberta",
+
+  "city": "Lloydminster",
+
+  "type": "Licensed Residential Addiction Service",
+
+  "gender": "Mixed Programs",
+
+  "lgbtq_friendly": "Needs Confirmation",
+
+  "post_treatment": true,
+
+  "benefit_compatibility": "Needs Confirmation",
+
+  "phone": "1-877-201-3955",
+
+  "local_phone": "587-789-2195",
+
+  "after_hours": "780-872-3911",
+
+  "email": "info@residentsinrecovery.com",
+
+  "address": "4804 50th Ave, Lloydminster, AB T9V 0W5",
+
+  "cost": "Contact organization",
+
+  "notes": [
+    "Provides sober living and residential recovery services.",
+    "Licensed Alberta residential addiction service provider.",
+    "Offers post-treatment sober living."
+  ],
+
+  "source": "https://www.residentsinrecovery.com/"
+}
+
+      ]
+    },
+
+
+    {
+      "id": "financial",
+
+      "title": "Banking and Financial Planning",
+
+      "contacts": [
+
+   {
+  "id": "recommended_bank",
+
+  "name": "Financial Institution Review Required",
+
+  "category": "Banking",
+
+  "purpose": [
+    "Chequing account",
+    "Savings account",
+    "RRSP",
+    "Long-term financial planning"
+  ],
+
+  "recommended_evaluation": [
+    "Low monthly fees",
+    "Branch accessibility",
+    "Financial advisor availability",
+    "RRSP investment options",
+    "Customer support",
+    "Accessibility services"
+  ],
+
+  "priority": "critical"
+}
+
+      ]
+    },
+
+
+    {
+      "id": "emergency",
+
+      "title": "Safety and Crisis Contacts",
+
+      "contacts": [
+
+      {
+  "id": "lawyer_sexual_misconduct",
+
+  "name": "Law Society of British Columbia - Lawyer Misconduct Reporting",
+
+  "category": "Legal Safety",
+
+  "phone": "604-605-5388",
+
+  "purpose": [
+    "Report lawyer misconduct",
+    "Professional conduct concerns",
+    "Sexual misconduct complaints",
+    "Client safety concerns"
+  ],
+
+  "priority": "critical",
+
+  "notes": [
+    "Serious criminal allegations may also require police reporting.",
+    "The Law Society investigates professional conduct concerns."
+  ]
+},
+
+{
+  "id": "victimlink_bc",
+
+  "name": "VictimLinkBC",
+
+  "category": "Victim Services",
+
+  "phone": "1-800-563-0808",
+
+  "availability": "24 hours a day, 7 days a week",
+
+  "purpose": [
+    "Victim support",
+    "Crime victim referrals",
+    "Safety planning",
+    "Counselling and community resource referrals"
+  ],
+
+  "priority": "critical"
+},
+
+{
+  "id": "crime_victim_assistance_program",
+
+  "name": "Crime Victim Assistance Program (CVAP)",
+
+  "category": "Victim Financial Support",
+
+  "phone": "1-866-660-3888",
+
+  "purpose": [
+    "Financial assistance for eligible victims of crime",
+    "Support related to recovery after victimization"
+  ],
+
+  "priority": "high"
+},
+
+{
+  "id": "suicide_crisis_canada",
+
+  "name": "988 Suicide Crisis Helpline",
+
+  "category": "Mental Health Crisis",
+
+  "phone": "988",
+
+  "availability": "24 hours a day, 7 days a week",
+
+  "purpose": [
+    "Suicide crisis support",
+    "Mental health crisis support",
+    "Support for people worried about someone else"
+  ],
+
+  "priority": "critical"
+},
+
+{
+  "id": "bc_mental_health_support",
+
+  "name": "BC Mental Health Support Line",
+
+  "category": "Mental Health",
+
+  "phone": "310-6789",
+
+  "purpose": [
+    "Mental health information",
+    "Emotional support",
+    "Crisis resources"
+  ],
+
+  "priority": "high"
+}
+
+      ]
+    }
+
+  ]
+}

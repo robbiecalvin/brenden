@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Brenden's Transition Plan</title>
+
+
+<link rel="stylesheet" href="../css/reset.css">
+<link rel="stylesheet" href="../css/layout.css">
+<link rel="stylesheet" href="../css/dashboard.css">
+
+
+<link rel="stylesheet" href="../css/theme.css">
+
+</head>
+
+
+
+
+<body>
+
+
+<header class="page-header">
+    <div>
+
+<h1>
+Brenden's Recovery Roadmap
+</h1>
+
+
+<p>
+A step-by-step guide for recovery, stability, and financial independence.
+</p>
+
+
+</div>
+<img class="logo" src="/assets/images/brendenlogo.png">
+</header>
+
+<section class="recovery-dashboard-progress">
+
+
+    <!-- MAIN JOURNEY PROGRESS -->
+    <div class="overall-progress-card">
+
+        <div class="progress-label">
+            <span>Overall Journey Progress</span>
+            <span id="overall-progress-percent">0%</span>
+        </div>
+
+
+        <div class="progress-track large">
+            <div 
+                id="overall-progress-bar"
+                class="progress-fill">
+            </div>
+        </div>
+
+
+        <div class="journey-status">
+            <span id="current-stage">
+                Current Stage: Immediate Actions
+            </span>
+
+            <span id="completion-status">
+                0 of 0 milestones completed
+            </span>
+        </div>
+
+    </div>
+
+
+
+    </div>
+
+</section>
+
+
+
+<main id="dashboard">
+
+
+</main>
+
+
+
+<script type="module">
+
+import {
+loadDashboard
+}
+from "../js/dashboard.js";
+
+
+loadDashboard();
+
+</script>
+
+
+<footer class="app-footer">
+
+    <div class="page-header">
+        <a class="footer-link" href="/pages/contacts.html">important contacts</a>
+    </div>
+
+    <p>
+        All information in this application was researched.
+    </p>
+    <p>
+        <a href="/sources.html">
+            Click here to view Sources
+        </a>
+    </p>
+
+    <p>
+        <button id="developerNoteButton">
+            A quick note from our Developer
+        </button>
+    </p>
+
+    <p>
+        Developed by Robbie Calvin
+    </p>
+
+</footer>
+
+
+<!-- Developer Popup -->
+<div id="developerNotePopup" class="developer-popup">
+
+    <div class="developer-popup-content">
+
+        <button id="closeDeveloperPopup" class="close-popup">
+            ×
+        </button>
+
+        <h2>A Quick Note From Our Developer</h2>
+
+        <p>
+            Brenden, love you
+        </p>
+
+    </div>
+
+</div>
+<script src="js/footer.js"></script>
+</body>
+
+</html>

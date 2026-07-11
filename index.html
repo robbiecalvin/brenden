@@ -1,152 +1,202 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
-
 <meta charset="UTF-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Secure Access</title>
 
-<title>Brenden's Transition Plan</title>
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/variables.css">
+<link rel="stylesheet" href="./css/theme.css">
+<link rel="stylesheet" href="./css/typography.css">
 
+<style>
 
-<link rel="stylesheet" href="../css/reset.css">
-<link rel="stylesheet" href="../css/layout.css">
-<link rel="stylesheet" href="../css/dashboard.css">
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #0a0a0a;
+    color: #fff;
+    font-family: sans-serif;
+}
 
+.login-container {
+    background: #111;
+    padding: 40px;
+    border-radius: 12px;
+    width: 320px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
 
-<link rel="stylesheet" href="../css/theme.css">
+h1 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #1a1a1a;
+    color: #fff;
+}
+
+input:focus {
+    outline: 2px solid #4cafef;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background: #4cafef;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+#error {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ff4d4d;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+    opacity: 0.5;
+}
+
+</style>
 
 </head>
 
-
-
-
 <body>
 
+<div class="login-container">
 
-<header class="page-header">
-    <div>
+    <h1>Restricted Access</h1>
 
-<h1>
-Brenden's Recovery Roadmap
-</h1>
+    <input 
+        id="username" 
+        placeholder="Username"
+        autocomplete="off"
+    >
 
+    <input 
+        id="password" 
+        type="password"
+        placeholder="Password"
+    >
 
-<p>
-A step-by-step guide for recovery, stability, and financial independence.
-</p>
+<button 
+type="button"
+id="loginBtn">
+    Enter
+</button>
 
+    <p id="error"></p>
+
+    <div class="footer">
+        Authorized users only
+    </div>
 
 </div>
-<img class="logo" src="/assets/images/brendenlogo.png">
-</header>
-
-<section class="recovery-dashboard-progress">
-
-
-    <!-- MAIN JOURNEY PROGRESS -->
-    <div class="overall-progress-card">
-
-        <div class="progress-label">
-            <span>Overall Journey Progress</span>
-            <span id="overall-progress-percent">0%</span>
-        </div>
-
-
-        <div class="progress-track large">
-            <div 
-                id="overall-progress-bar"
-                class="progress-fill">
-            </div>
-        </div>
-
-
-        <div class="journey-status">
-            <span id="current-stage">
-                Current Stage: Immediate Actions
-            </span>
-
-            <span id="completion-status">
-                0 of 0 milestones completed
-            </span>
-        </div>
-
-    </div>
-
-
-
-    </div>
-
-</section>
-
-
-
-<main id="dashboard">
-
-
-</main>
 
 
 
 <script type="module">
 
-import {
-loadDashboard
+import { login, isAuthenticated } from "./js/auth.js";
+
+
+// Only redirect if a real login exists
+if (
+    localStorage.getItem("auth") === "true"
+) {
+    window.location.href = "./pages/dashboard.html";
 }
-from "../js/dashboard.js";
 
 
-loadDashboard();
+
+const loginButton =
+document.getElementById("loginBtn");
+
+
+loginButton.addEventListener(
+"click",
+function(event){
+
+    event.preventDefault();
+
+
+    const username =
+    document.getElementById("username")
+    .value
+    .trim();
+
+
+    const password =
+    document.getElementById("password")
+    .value
+    .trim();
+
+
+
+    const success =
+    login(username,password);
+
+
+
+    if(success){
+
+        window.location.href =
+        "./pages/dashboard.html";
+
+    }
+
+    else {
+
+        document.getElementById("error")
+        .innerText =
+        "Invalid username or password";
+
+    }
+
+});
+
+
+
+document.addEventListener(
+"keydown",
+function(event){
+
+    if(event.key === "Enter"){
+
+        event.preventDefault();
+
+        loginButton.click();
+
+    }
+
+});
 
 </script>
 
-
-<footer class="app-footer">
-
-    <p>
-        All information in this application was researched.
-    </p>
-    <p>
-        <a href="/sources.html">
-            Click here to view Sources
-        </a>
-    </p>
-
-    <p>
-        <button id="developerNoteButton">
-            A quick note from our Developer
-        </button>
-    </p>
-
-    <p>
-        Developed by Robbie Calvin
-    </p>
-
-</footer>
-
-
-<!-- Developer Popup -->
-<div id="developerNotePopup" class="developer-popup">
-
-    <div class="developer-popup-content">
-
-        <button id="closeDeveloperPopup" class="close-popup">
-            ×
-        </button>
-
-        <h2>A Quick Note From Our Developer</h2>
-
-        <p>
-            Brenden, love you
-        </p>
-
-    </div>
-
-</div>
-<script src="js/footer.js"></script>
 </body>
 
 </html>

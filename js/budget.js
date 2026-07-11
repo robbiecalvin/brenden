@@ -21,6 +21,7 @@ function renderBudgetSelector(scenarios) {
 
 
     container.innerHTML = `
+    <br>
 
         <select id="budget-select">
 

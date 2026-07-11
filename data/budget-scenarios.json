@@ -1,395 +1,278 @@
 {
   "meta": {
-    "version": "1.0",
+    "version": "3.0",
     "currency": "CAD",
-    "purpose": "Monthly transition budget scenarios",
+    "purpose": "Brenden transition budget scenarios from recovery to financial independence",
     "last_updated": "2026-07",
-    "note": "Figures are planning estimates and should be updated with confirmed benefit amounts and actual expenses."
+    "note": "Planning estimates. Update with confirmed benefits, trustee decisions, housing costs, employment income, and actual expenses."
   },
 
 
   "scenarios": [
 
-
     {
-      "id": "october_2026_brenden_alone_bc",
 
-      "title": "October 2026 - Brenden Alone in BC",
+      "id": "scenario_one_brenden_alone_bc",
 
-      "description": "Initial transition month after treatment completion.",
+      "title": "Scenario 1 - Brenden Alone in BC Housing",
+
+      "description": "Brenden transitions independently after treatment while completing identity, legal, trustee, and financial planning.",
 
       "location": "Vancouver BC",
 
       "people": 1,
 
 
+      "phase": "October-December 2026",
+
+
       "income": [
 
         {
           "name": "BC Disability Assistance",
-          "amount": 983.50,
-          "source": "bc_disability_rates"
+          "amount": 1483.50
         }
 
       ],
+
+
+      "housing": {
+
+        "type": "BC Housing",
+
+        "monthly_shelter_contribution": 500,
+
+        "description": "Brenden contributes toward shelter costs while living independently."
+
+      },
 
 
       "expenses": [
 
         {
           "category": "Housing",
-          "name": "Shared or Recovery Housing",
-          "amount": 900
+          "name": "BC Housing Shelter Contribution",
+          "amount": 500
         },
 
         {
           "category": "Food",
-          "name": "Groceries",
-          "amount": 500
+          "amount": 350
+        },
+
+        {
+          "category": "Smoking",
+          "amount": 70
         },
 
         {
           "category": "Phone",
-          "name": "Mobile Phone",
-          "amount": 80
+          "amount": 40
         },
 
         {
           "category": "Internet",
-          "name": "Internet",
-          "amount": 80
+          "amount": 25
+        },
+
+        {
+          "category": "Personal Care",
+          "amount": 100
         },
 
         {
           "category": "Transportation",
-          "name": "Transit",
-          "amount": 115
+          "amount": 40
         },
 
         {
-          "category": "Personal",
-          "name": "Personal Needs",
-          "amount": 150
+          "category": "Reckless Spending Buffer",
+          "amount": 100
         }
 
       ],
 
 
-      "estimated_balance": -841.50
+      "monthly_expenses_total": 1225,
+
+
+      "monthly_remaining": 258.50,
+
+
+      "three_month_transition_savings": 775.50,
+
+
+      "relocation_costs": [
+
+        {
+          "name": "One Way Flight Vancouver to Lloydminster",
+          "amount": 70
+        }
+
+      ],
+
+
+      "arrival_savings": 705.50
 
     },
 
 
 
     {
-      "id": "november_2026_brenden_alone_bc",
 
-      "title": "November 2026 - Stabilization Budget",
+
+      "id": "scenario_two_brenden_robbie_bc",
+
+
+      "title": "Scenario 2 - Brenden and Robbie Rebuild Together",
+
+
+      "description": "Brenden moves into Robbie's existing accommodation at 2335 West 7th while both rebuild stability before relocation.",
+
 
       "location": "Vancouver BC",
 
-      "people": 1,
-
-
-      "income": [
-
-        {
-          "name": "BC Disability Assistance",
-          "amount": 983.50
-        }
-
-      ],
-
-
-      "expenses": [
-
-        {
-          "name": "Recovery Housing",
-          "amount": 800
-        },
-
-        {
-          "name": "Food",
-          "amount": 500
-        },
-
-        {
-          "name": "Phone",
-          "amount": 80
-        },
-
-        {
-          "name": "Transportation",
-          "amount": 115
-        },
-
-        {
-          "name": "Personal Expenses",
-          "amount": 150
-        }
-
-      ],
-
-
-      "estimated_balance": -661.50
-
-    },
-
-
-
-    {
-      "id": "december_2026_brenden_alone_bc",
-
-      "title": "December 2026 - Independent Planning",
-
-      "location": "Vancouver BC",
-
-      "people": 1,
-
-
-      "income": [
-
-        {
-          "name": "BC Disability Assistance",
-          "amount": 983.50
-        }
-
-      ],
-
-
-      "expenses": [
-
-        {
-          "name": "Housing",
-          "amount": 900
-        },
-
-        {
-          "name": "Food",
-          "amount": 500
-        },
-
-        {
-          "name": "Phone",
-          "amount": 80
-        },
-
-        {
-          "name": "Transportation",
-          "amount": 115
-        },
-
-        {
-          "name": "Personal",
-          "amount": 150
-        }
-
-      ],
-
-
-      "estimated_balance": -761.50
-
-    },
-
-
-
-    {
-      "id": "two_person_bc_household",
-
-      "title": "Two People Living Together in BC",
-
-      "description": "One person on disability, one person receiving income or employment income.",
-
-      "location": "Vancouver BC",
 
       "people": 2,
 
 
-      "income": [
-
-        {
-          "name": "Brenden Disability Benefits",
-          "amount": 983.50
-        },
-
-        {
-          "name": "Second Person Income",
-          "amount": 1000,
-          "adjustable": true
-        }
-
-      ],
+      "phase": "October-December 2026",
 
 
-      "expenses": [
+      "housing": {
 
-        {
-          "name": "Rent",
-          "amount": 1500
-        },
+        "location": "2335 West 7th",
 
-        {
-          "name": "Food",
-          "amount": 850
-        },
+        "type": "Existing Accommodation",
 
-        {
-          "name": "Utilities",
-          "amount": 220
-        },
+        "monthly_cost": 0
 
-        {
-          "name": "Phones",
-          "amount": 160
-        },
-
-        {
-          "name": "Transportation",
-          "amount": 200
-        },
-
-        {
-          "name": "Personal Expenses",
-          "amount": 250
-        }
-
-      ],
-
-
-      "estimated_balance": -1196.50
-
-    },
-
-
-
-    {
-      "id": "lloydminster_transition",
-
-      "title": "Lloydminster Relocation Plan",
-
-      "description": "Lower-cost location scenario.",
-
-      "location": "Lloydminster AB/SK",
-
-      "people": 1,
+      },
 
 
       "income": [
 
         {
-          "name": "Disability Income",
-          "amount": 1740
+
+          "name": "Brenden Disability Assistance",
+
+          "amount": 1483.50
+
+        },
+
+
+        {
+
+          "name": "Robbie Income",
+
+          "amount": 1040
+
         }
 
+
       ],
+
+
+      "combined_monthly_income": 2523.50,
 
 
       "expenses": [
 
         {
-          "name": "Rent",
-          "amount": 1200
-        },
 
-        {
-          "name": "Food",
+          "category": "Food",
+
           "amount": 500
+
         },
 
-        {
-          "name": "Utilities",
-          "amount": 200
-        },
 
         {
-          "name": "Phone",
+
+          "category": "Phones",
+
           "amount": 80
+
         },
 
-        {
-          "name": "Transportation",
-          "amount": 100
-        },
 
         {
-          "name": "Personal",
-          "amount": 150
+
+          "category": "Internet",
+
+          "amount": 25
+
+        },
+
+
+        {
+
+          "category": "Smoking",
+
+          "amount": 110
+
+        },
+
+
+        {
+
+          "category": "Personal Care",
+
+          "amount": 200
+
+        },
+
+
+        {
+
+          "category": "Transportation",
+
+          "amount": 40
+
+        },
+
+
+        {
+
+          "category": "Reckless Spending Buffer",
+
+          "amount": 200
+
+        }
+
+
+      ],
+
+
+      "monthly_expenses_total": 1155,
+
+
+      "monthly_remaining": 1368.50,
+
+
+      "three_month_transition_savings": 4105.50,
+
+
+      "relocation_costs": [
+
+        {
+
+          "name": "Two Flights Vancouver to Lloydminster",
+
+          "amount": 140
+
         }
 
       ],
 
 
-      "estimated_balance": -490
-
-    },
-
-
-
-    {
-      "id": "trust_future_plan",
-
-      "title": "Future Trust Allowance Scenario",
-
-      "description": "Potential future financial independence scenario after legal review.",
-
-      "location": "Lloydminster",
-
-      "people": 1,
-
-
-      "income": [
-
-        {
-          "name": "Trust Allowance",
-          "amount": 5000
-        }
-
-      ],
-
-
-      "expenses": [
-
-        {
-          "name": "Housing",
-          "amount": 1200
-        },
-
-        {
-          "name": "Food",
-          "amount": 600
-        },
-
-        {
-          "name": "Utilities",
-          "amount": 250
-        },
-
-        {
-          "name": "Transportation",
-          "amount": 450
-        },
-
-        {
-          "name": "Healthcare",
-          "amount": 100
-        },
-
-        {
-          "name": "Personal Spending",
-          "amount": 300
-        },
-
-        {
-          "name": "Savings",
-          "amount": 1000
-        }
-
-      ],
-
-
-      "estimated_balance": 1100
+      "arrival_savings": 3965.50
 
     }
+
+
+
+ 
 
 
   ]

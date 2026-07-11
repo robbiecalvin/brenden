@@ -57,7 +57,7 @@ ${
 
 phase.tasks.map(task=>`
 
-<li>
+<li class="task-checkbox">
 ☐ ${task}
 </li>
 

@@ -7,101 +7,77 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Lloydminster Planning</title>
+<title>Lloydminster Independence Plan</title>
+
 
 <link rel="stylesheet" href="../css/reset.css">
-<link rel="stylesheet" href="../css/layout.css">
-<link rel="stylesheet" href="../css/planning.css">
-
 <link rel="stylesheet" href="../css/theme.css">
+<link rel="stylesheet" href="../css/layout.css">
+<link rel="stylesheet" href="../css/cards.css">
+<link rel="stylesheet" href="../css/budget.css">
+<link rel="stylesheet" href="../css/lloydminster.css">
+
 
 </head>
-
-
 
 
 <body>
 
 
 <header class="page-header">
-<div>
 
 <h1>
-Lloydminster Plan
+Lloydminster Independence Plan
 </h1>
 
 <p>
-Cost, housing, recovery, and relocation planning
+Housing, financial planning, transportation, pets, and long-term stability.
 </p>
 
-</div>
-<img class="logo" src="/assets/images/brendenlogo.png">
 </header>
 
 
 
-<main id="lloydminster-container">
+<main>
+
+
+<section class="page-intro">
+
+<h2>
+Future Planning Scenarios
+</h2>
+
+<p>
+Explore possible paths after trustee planning and relocation preparation are complete.
+</p>
+
+</section>
+
+
+
+<section id="lloydminster-container">
+
+</section>
+
 
 </main>
 
 
 
+
+<footer id="footer-container"></footer>
+
+
+
 <script type="module">
 
-import {
-loadLloydminster
-}
-from "../js/lloydminster.js";
-
+import { loadLloydminster } from "../js/lloydminster.js";
 
 loadLloydminster();
 
 </script>
 
 
-<footer class="app-footer">
-
-    <p>
-        All information in this application was researched.
-    </p>
-    <p>
-        <a href="/sources.html">
-            Click here to view Sources
-        </a>
-    </p>
-
-    <p>
-        <button id="developerNoteButton">
-            A quick note from our Developer
-        </button>
-    </p>
-
-    <p>
-        Developed by Robbie Calvin
-    </p>
-
-</footer>
-
-
-<!-- Developer Popup -->
-<div id="developerNotePopup" class="developer-popup">
-
-    <div class="developer-popup-content">
-
-        <button id="closeDeveloperPopup" class="close-popup">
-            ×
-        </button>
-
-        <h2>A Quick Note From Our Developer</h2>
-
-        <p>
-            Brenden, love you
-        </p>
-
-    </div>
-
-</div>
-<script src="../js/footer.js"></script>
 </body>
 
 </html>

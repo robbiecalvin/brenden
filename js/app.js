@@ -1,5 +1,12 @@
 // js/app.js
 
+import { isAuthenticated } from "./auth.js";
+
+if(!isAuthenticated()){
+
+    window.location.href = "index.html";
+}
+
 import {
   initializeAppData,
   getAppData,
@@ -50,7 +57,7 @@ function setupNavigation() {
     btn.addEventListener("click", () => {
       const target = btn.dataset.nav;
 
-      window.location.href = `/pages/${target}.html`;
+      window.location.href = `${target}.html`;
     });
   });
 }
