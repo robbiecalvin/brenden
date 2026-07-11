@@ -25,7 +25,7 @@ export const CONFIG = {
 
 
     getPagePath: (file) => {
-        return `${CONFIG.BASE_PATH}/${file}`;
+        return `${CONFIG.BASE_PATH}/pages/${file}`;
     }
 
 };

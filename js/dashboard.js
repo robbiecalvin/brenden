@@ -158,7 +158,7 @@ ${createCards([
 [
 "🏠 Recovery Housing",
 "Compare safe housing options",
-"recovery.html",
+"housing-details.html",
 "step9.png"
 ],
 
