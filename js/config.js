@@ -20,7 +20,7 @@ export const CONFIG = {
 
 
     getAssetPath: (file) => {
-        return `${CONFIG.BASE_PATH}/assets/${file}`;
+        return `${CONFIG.BASE_PATH}/assets/images/${file}`;
     },
 
 
